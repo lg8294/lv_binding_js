@@ -4,7 +4,7 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __defNormalProp = (obj9, key, value) => key in obj9 ? __defProp(obj9, key, { enumerable: true, configurable: true, writable: true, value }) : obj9[key] = value;
+var __defNormalProp = (obj10, key, value) => key in obj10 ? __defProp(obj10, key, { enumerable: true, configurable: true, writable: true, value }) : obj10[key] = value;
 var __require = /* @__PURE__ */ ((x) => typeof require !== "undefined" ? require : typeof Proxy !== "undefined" ? new Proxy(x, {
   get: (a, b) => (typeof require !== "undefined" ? require : a)[b]
 }) : x)(function(x) {
@@ -24,14 +24,14 @@ var __copyProps = (to, from, except, desc) => {
   return to;
 };
 var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
-var __publicField = (obj9, key, value) => {
-  __defNormalProp(obj9, typeof key !== "symbol" ? key + "" : key, value);
+var __publicField = (obj10, key, value) => {
+  __defNormalProp(obj10, typeof key !== "symbol" ? key + "" : key, value);
   return value;
 };
 
-// node_modules/object-assign/index.js
+// node_modules/.pnpm/object-assign@4.1.1/node_modules/object-assign/index.js
 var require_object_assign = __commonJS({
-  "node_modules/object-assign/index.js"(exports, module) {
+  "node_modules/.pnpm/object-assign@4.1.1/node_modules/object-assign/index.js"(exports, module) {
     "use strict";
     var getOwnPropertySymbols = Object.getOwnPropertySymbols;
     var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -99,9 +99,9 @@ var require_object_assign = __commonJS({
   }
 });
 
-// node_modules/react/cjs/react.production.min.js
+// node_modules/.pnpm/react@16.14.0/node_modules/react/cjs/react.production.min.js
 var require_react_production_min = __commonJS({
-  "node_modules/react/cjs/react.production.min.js"(exports) {
+  "node_modules/.pnpm/react@16.14.0/node_modules/react/cjs/react.production.min.js"(exports) {
     "use strict";
     var l = require_object_assign();
     var n = typeof Symbol === "function" && Symbol.for;
@@ -402,25 +402,25 @@ var require_react_production_min = __commonJS({
   }
 });
 
-// node_modules/prop-types/lib/ReactPropTypesSecret.js
+// node_modules/.pnpm/prop-types@15.8.1/node_modules/prop-types/lib/ReactPropTypesSecret.js
 var require_ReactPropTypesSecret = __commonJS({
-  "node_modules/prop-types/lib/ReactPropTypesSecret.js"(exports, module) {
+  "node_modules/.pnpm/prop-types@15.8.1/node_modules/prop-types/lib/ReactPropTypesSecret.js"(exports, module) {
     "use strict";
     var ReactPropTypesSecret = "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";
     module.exports = ReactPropTypesSecret;
   }
 });
 
-// node_modules/prop-types/lib/has.js
+// node_modules/.pnpm/prop-types@15.8.1/node_modules/prop-types/lib/has.js
 var require_has = __commonJS({
-  "node_modules/prop-types/lib/has.js"(exports, module) {
+  "node_modules/.pnpm/prop-types@15.8.1/node_modules/prop-types/lib/has.js"(exports, module) {
     module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
   }
 });
 
-// node_modules/prop-types/checkPropTypes.js
+// node_modules/.pnpm/prop-types@15.8.1/node_modules/prop-types/checkPropTypes.js
 var require_checkPropTypes = __commonJS({
-  "node_modules/prop-types/checkPropTypes.js"(exports, module) {
+  "node_modules/.pnpm/prop-types@15.8.1/node_modules/prop-types/checkPropTypes.js"(exports, module) {
     "use strict";
     var printWarning = function() {
     };
@@ -478,9 +478,9 @@ var require_checkPropTypes = __commonJS({
   }
 });
 
-// node_modules/react/cjs/react.development.js
+// node_modules/.pnpm/react@16.14.0/node_modules/react/cjs/react.development.js
 var require_react_development = __commonJS({
-  "node_modules/react/cjs/react.development.js"(exports) {
+  "node_modules/.pnpm/react@16.14.0/node_modules/react/cjs/react.development.js"(exports) {
     "use strict";
     if (process.env.NODE_ENV !== "production") {
       (function() {
@@ -1549,9 +1549,9 @@ var require_react_development = __commonJS({
         function validateFragmentProps(fragment) {
           {
             setCurrentlyValidatingElement(fragment);
-            var keys10 = Object.keys(fragment.props);
-            for (var i = 0; i < keys10.length; i++) {
-              var key = keys10[i];
+            var keys11 = Object.keys(fragment.props);
+            for (var i = 0; i < keys11.length; i++) {
+              var key = keys11[i];
               if (key !== "children" && key !== "key") {
                 error("Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.", key);
                 break;
@@ -1690,9 +1690,9 @@ var require_react_development = __commonJS({
   }
 });
 
-// node_modules/react/index.js
+// node_modules/.pnpm/react@16.14.0/node_modules/react/index.js
 var require_react = __commonJS({
-  "node_modules/react/index.js"(exports, module) {
+  "node_modules/.pnpm/react@16.14.0/node_modules/react/index.js"(exports, module) {
     "use strict";
     if (process.env.NODE_ENV === "production") {
       module.exports = require_react_production_min();
@@ -1702,9 +1702,9 @@ var require_react = __commonJS({
   }
 });
 
-// node_modules/scheduler/cjs/scheduler.production.min.js
+// node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler.production.min.js
 var require_scheduler_production_min = __commonJS({
-  "node_modules/scheduler/cjs/scheduler.production.min.js"(exports) {
+  "node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler.production.min.js"(exports) {
     "use strict";
     var f;
     var g;
@@ -2019,9 +2019,9 @@ var require_scheduler_production_min = __commonJS({
   }
 });
 
-// node_modules/scheduler/cjs/scheduler.development.js
+// node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({
-  "node_modules/scheduler/cjs/scheduler.development.js"(exports) {
+  "node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler.development.js"(exports) {
     "use strict";
     if (process.env.NODE_ENV !== "production") {
       (function() {
@@ -2672,9 +2672,9 @@ var require_scheduler_development = __commonJS({
   }
 });
 
-// node_modules/scheduler/index.js
+// node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/index.js
 var require_scheduler = __commonJS({
-  "node_modules/scheduler/index.js"(exports, module) {
+  "node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/index.js"(exports, module) {
     "use strict";
     if (process.env.NODE_ENV === "production") {
       module.exports = require_scheduler_production_min();
@@ -2684,9 +2684,9 @@ var require_scheduler = __commonJS({
   }
 });
 
-// node_modules/react-reconciler/cjs/react-reconciler.production.min.js
+// node_modules/.pnpm/react-reconciler@0.25.1_react@16.14.0/node_modules/react-reconciler/cjs/react-reconciler.production.min.js
 var require_react_reconciler_production_min = __commonJS({
-  "node_modules/react-reconciler/cjs/react-reconciler.production.min.js"(exports, module) {
+  "node_modules/.pnpm/react-reconciler@0.25.1_react@16.14.0/node_modules/react-reconciler/cjs/react-reconciler.production.min.js"(exports, module) {
     module.exports = function $$$reconciler($$$hostConfig) {
       "use strict";
       var aa = require_object_assign(), ba = require_react(), m = require_scheduler();
@@ -6579,9 +6579,9 @@ var require_react_reconciler_production_min = __commonJS({
   }
 });
 
-// node_modules/scheduler/cjs/scheduler-tracing.production.min.js
+// node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler-tracing.production.min.js
 var require_scheduler_tracing_production_min = __commonJS({
-  "node_modules/scheduler/cjs/scheduler-tracing.production.min.js"(exports) {
+  "node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler-tracing.production.min.js"(exports) {
     "use strict";
     var b = 0;
     exports.__interactionsRef = null;
@@ -6608,9 +6608,9 @@ var require_scheduler_tracing_production_min = __commonJS({
   }
 });
 
-// node_modules/scheduler/cjs/scheduler-tracing.development.js
+// node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler-tracing.development.js
 var require_scheduler_tracing_development = __commonJS({
-  "node_modules/scheduler/cjs/scheduler-tracing.development.js"(exports) {
+  "node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler-tracing.development.js"(exports) {
     "use strict";
     if (process.env.NODE_ENV !== "production") {
       (function() {
@@ -6890,9 +6890,9 @@ var require_scheduler_tracing_development = __commonJS({
   }
 });
 
-// node_modules/scheduler/tracing.js
+// node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/tracing.js
 var require_tracing = __commonJS({
-  "node_modules/scheduler/tracing.js"(exports, module) {
+  "node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/tracing.js"(exports, module) {
     "use strict";
     if (process.env.NODE_ENV === "production") {
       module.exports = require_scheduler_tracing_production_min();
@@ -6902,19 +6902,19 @@ var require_tracing = __commonJS({
   }
 });
 
-// node_modules/react-reconciler/cjs/react-reconciler.development.js
+// node_modules/.pnpm/react-reconciler@0.25.1_react@16.14.0/node_modules/react-reconciler/cjs/react-reconciler.development.js
 var require_react_reconciler_development = __commonJS({
-  "node_modules/react-reconciler/cjs/react-reconciler.development.js"(exports, module) {
+  "node_modules/.pnpm/react-reconciler@0.25.1_react@16.14.0/node_modules/react-reconciler/cjs/react-reconciler.development.js"(exports, module) {
     "use strict";
     if (process.env.NODE_ENV !== "production") {
       module.exports = function $$$reconciler($$$hostConfig) {
         "use strict";
         var _assign = require_object_assign();
-        var React2 = require_react();
+        var React3 = require_react();
         var checkPropTypes = require_checkPropTypes();
         var Scheduler = require_scheduler();
         var tracing = require_tracing();
-        var ReactSharedInternals = React2.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React3.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         if (!ReactSharedInternals.hasOwnProperty("ReactCurrentDispatcher")) {
           ReactSharedInternals.ReactCurrentDispatcher = {
             current: null
@@ -9239,7 +9239,7 @@ var require_react_reconciler_development = __commonJS({
         }
         var fakeInternalInstance = {};
         var isArray = Array.isArray;
-        var emptyRefsObject = new React2.Component().refs;
+        var emptyRefsObject = new React3.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -17863,17 +17863,17 @@ For more info, visit https://fb.me/react-mock-scheduler`);
         var scheduleUpdate = null;
         var setSuspenseHandler = null;
         {
-          var copyWithSetImpl = function(obj9, path4, idx, value) {
+          var copyWithSetImpl = function(obj10, path4, idx, value) {
             if (idx >= path4.length) {
               return value;
             }
             var key = path4[idx];
-            var updated = Array.isArray(obj9) ? obj9.slice() : _assign({}, obj9);
-            updated[key] = copyWithSetImpl(obj9[key], path4, idx + 1, value);
+            var updated = Array.isArray(obj10) ? obj10.slice() : _assign({}, obj10);
+            updated[key] = copyWithSetImpl(obj10[key], path4, idx + 1, value);
             return updated;
           };
-          var copyWithSet = function(obj9, path4, value) {
-            return copyWithSetImpl(obj9, path4, 0, value);
+          var copyWithSet = function(obj10, path4, value) {
+            return copyWithSetImpl(obj10, path4, 0, value);
           };
           overrideHookState = function(fiber, id2, path4, value) {
             var currentHook2 = fiber.memoizedState;
@@ -18085,9 +18085,9 @@ For more info, visit https://fb.me/react-mock-scheduler`);
   }
 });
 
-// node_modules/react-reconciler/index.js
+// node_modules/.pnpm/react-reconciler@0.25.1_react@16.14.0/node_modules/react-reconciler/index.js
 var require_react_reconciler = __commonJS({
-  "node_modules/react-reconciler/index.js"(exports, module) {
+  "node_modules/.pnpm/react-reconciler@0.25.1_react@16.14.0/node_modules/react-reconciler/index.js"(exports, module) {
     "use strict";
     if (process.env.NODE_ENV === "production") {
       module.exports = require_react_reconciler_production_min();
@@ -18096,9 +18096,6 @@ var require_react_reconciler = __commonJS({
     }
   }
 });
-
-// src/render/react/index.js
-var react = __toESM(require_react());
 
 // src/render/react/core/reconciler/index.js
 var import_react_reconciler = __toESM(require_react_reconciler());
@@ -18248,19 +18245,19 @@ function unRegistEvent(uid, eventType) {
   if (!eventType) {
     delete eventMap[uid];
   } else {
-    const obj9 = eventMap[uid];
-    obj9 && delete obj9[eventType];
+    const obj10 = eventMap[uid];
+    obj10 && delete obj10[eventType];
   }
 }
 function fireEvent(targetUid, currentTargetUid, eventType, e) {
-  const obj9 = eventMap[currentTargetUid];
+  const obj10 = eventMap[currentTargetUid];
   const target = getInstance(targetUid);
   const currentTarget = getInstance(currentTargetUid);
-  if (obj9) {
+  if (obj10) {
     e.target = target;
     e.currentTarget = currentTarget;
     try {
-      obj9[eventType].call(null, e);
+      obj10[eventType].call(null, e);
     } catch (err) {
       console.log(err);
     }
@@ -18279,27 +18276,27 @@ globalThis.FIRE_QEVENT_CALLBACK = fireEvent;
 
 // src/render/react/core/style/color.js
 var builtinColor = {
-  "red": 16007990,
-  "pink": 15277667,
-  "purple": 10233776,
+  red: 16007990,
+  pink: 15277667,
+  purple: 10233776,
   "deep-purple": 6765239,
-  "indigo": 4149685,
-  "blue": 2201331,
+  indigo: 4149685,
+  blue: 2201331,
   "light-blue": 240116,
-  "cyan": 48340,
-  "teal": 38536,
-  "green": 5025616,
+  cyan: 48340,
+  teal: 38536,
+  green: 5025616,
   "light-green": 9159498,
-  "lime": 13491257,
-  "yellow": 16771899,
-  "amber": 16761095,
-  "orange": 16750592,
+  lime: 13491257,
+  yellow: 16771899,
+  amber: 16761095,
+  orange: 16750592,
   "deep-orange": 16733986,
-  "brown": 7951688,
+  brown: 7951688,
   "blue-grey": 6323595,
-  "grey": 10395294,
-  "white": 16777215,
-  "black": 0
+  grey: 10395294,
+  white: 16777215,
+  black: 0
 };
 var colorTransform = (data) => {
   if (builtinColor[data]) {
@@ -18344,7 +18341,7 @@ function NormalizePx(value) {
     return value;
   }
   value = value.replace(/(^\s*)|(\s*$)/g, "");
-  const reg = /(\d+\.?\d*)(px)?$/;
+  const reg = /(-?\d+\.?\d*)(px)?$/;
   value = value.match(reg)?.[1];
   if (!isNaN(value)) {
     return value;
@@ -18376,10 +18373,10 @@ function ProcessPxOrPercent(key, value, result) {
     return result[`${key}_pct`] = value1;
   }
 }
-function ProcessEnum(obj9) {
+function ProcessEnum(obj10) {
   return (key, value, result) => {
-    if (obj9[value] !== void 0) {
-      result[key] = obj9[value];
+    if (obj10[value] !== void 0) {
+      result[key] = obj10[value];
     }
   };
 }
@@ -18421,6 +18418,239 @@ function ProcessBoolean(key, value, result) {
   result[key] = !!value;
 }
 
+// src/render/react/core/style/pipe/arc.js
+var obj = {
+  "arc-width": ProcessPx,
+  "arc-color": ProcessColor,
+  "arc-rounded": ProcessBoolean
+};
+var keys = Object.keys(obj);
+function ArcStyle(style2, result, compName) {
+  keys.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj[key](key, style2[key], result);
+    }
+  });
+}
+
+// src/render/react/core/style/pipe/background.js
+var obj2 = {
+  "background-color": ProcessColor,
+  "background-grad-color": ProcessColor,
+  "background-grad-color-dir": ProcessEnum({
+    none: 0,
+    vertical: 1,
+    horizontal: 2
+  })
+};
+var keys2 = Object.keys(obj2);
+function BackgroundStyle(style2, result, compName) {
+  keys2.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj2[key](key, style2[key], result);
+    }
+  });
+}
+
+// src/render/react/core/style/pipe/border.js
+var obj3 = {
+  "border-radius": ProcessPx,
+  "border-width": ProcessPx,
+  "border-color": ProcessColor,
+  "border-side": ProcessEnum({
+    left: 4,
+    right: 8,
+    full: 15,
+    top: 2,
+    bottom: 1,
+    "top-right": 2 | 8,
+    "top-bottom": 2 | 1,
+    "top-left": 2 | 4,
+    "right-bottom": 8 | 1,
+    "right-left": 8 | 4,
+    "bottom-left": 1 | 4
+  })
+};
+var keys3 = Object.keys(obj3);
+function BorderStyle(style2, result, compName) {
+  keys3.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj3[key](key, style2[key], result);
+    }
+  });
+}
+
+// src/render/react/core/style/pipe/display.js
+function DisplayStyle(style2, result, compName) {
+  if (style2["display"]) {
+    result["display"] = style2["display"];
+  }
+}
+
+// src/render/react/core/style/pipe/flex.js
+var flexFlowObj = {
+  row_nowrap: 0,
+  column_nowrap: 1 << 0,
+  row_wrap: 0 | 1 << 2,
+  column_wrap: 1 << 0 | 1 << 2,
+  "row_wrap-reverse": 0 | 1 << 2 | 1 << 3,
+  "column_wrap-reverse": 1 << 0 | 1 << 2 | 1 << 3,
+  row_reverse: 0 | 1 << 3,
+  column_reverse: 0 | 1 << 3
+};
+var flexAlignObj = {
+  "flex-start": 0,
+  "flex-end": 1,
+  center: 2,
+  "space-evenly": 3,
+  "space-around": 4,
+  "space-between": 5
+};
+function FlexStyle(style2, result) {
+  if (style2.display !== "flex")
+    return result;
+  let flexFlow = 0;
+  const flexDirection = style2["flex-direction"] || "row";
+  const flexWrap = style2["flex-wrap"] || "nowrap";
+  if (flexFlowObj[`${flexDirection}_${flexWrap}`]) {
+    flexFlow = flexFlowObj[`${flexDirection}_${flexWrap}`];
+  }
+  result["flex-flow"] = flexFlow;
+  let mainPlace = 0;
+  let crossPlace = 0;
+  let trackCrossPlace = 0;
+  const justifyContent = style2["justify-content"];
+  const alignItems = style2["align-items"];
+  const alignContent = style2["align-content"] || (flexWrap === "nowrap" ? alignItems : "flex-start");
+  if (flexAlignObj[justifyContent]) {
+    mainPlace = flexAlignObj[justifyContent];
+  }
+  if (flexAlignObj[alignItems]) {
+    crossPlace = flexAlignObj[alignItems];
+  }
+  trackCrossPlace = alignContent ? flexAlignObj[alignContent] : crossPlace;
+  if (justifyContent) {
+    result["justify-content"] = mainPlace;
+  }
+  if (alignItems) {
+    result["align-items"] = crossPlace;
+  }
+  if (alignContent) {
+    result["align-content"] = trackCrossPlace;
+  }
+  if (!isNaN(style2["flex-grow"])) {
+    result["flex-grow"] = style2["flex-grow"];
+  }
+  return result;
+}
+
+// src/render/react/core/style/pipe/grid.js
+var GRID_CONTENT = (1 << 13) - 1 - 101;
+var FR_REG = /([\d]+)fr$/;
+var gridChildJustifySelfObj = {
+  start: 0,
+  end: 2,
+  center: 1,
+  stretch: 3
+};
+var gridChildAlignSelfObj = {
+  start: 0,
+  end: 2,
+  center: 1,
+  stretch: 3
+};
+var gridJustifyContentObj = {
+  start: 0,
+  end: 2,
+  center: 1,
+  "space-evenly": 4,
+  "space-around": 5,
+  "space-between": 6,
+  stretch: 3
+};
+var gridAlignItemsObj = {
+  start: 0,
+  end: 2,
+  center: 1,
+  "space-evenly": 4,
+  "space-around": 5,
+  "space-between": 6,
+  stretch: 3
+};
+function GridStyle(style2, result) {
+  if (style2.display == "grid") {
+    let columns = style2["grid-template-columns"]?.split(/\s/).filter(Boolean);
+    let rows = style2["grid-template-rows"]?.split(/\s/).filter(Boolean);
+    if (!columns || !rows)
+      return;
+    columns = columns.map((column) => {
+      if (column === "auto") {
+        return GRID_CONTENT;
+      }
+      const arr = column?.match(FR_REG);
+      if (!isNaN(arr?.[1])) {
+        return (1 << 13) - 1 - 100 + Number(arr[1]);
+      }
+      return NormalizePx(column);
+    });
+    rows = rows.map((row) => {
+      if (row === "auto") {
+        return GRID_CONTENT;
+      }
+      const arr = row?.match(FR_REG);
+      if (!isNaN(arr?.[1])) {
+        return (1 << 13) - 1 - 100 + Number(arr[1]);
+      }
+      return NormalizePx(row);
+    });
+    columns = columns.filter(Boolean);
+    rows = rows.filter(Boolean);
+    result["display"] = "grid";
+    result["grid-template"] = [columns, rows];
+    const justifyContent = gridJustifyContentObj[style2["justify-content"]] || gridJustifyContentObj.start;
+    const alignContent = gridAlignItemsObj[style2["align-items"]] || gridAlignItemsObj.start;
+    result["grid-align"] = [justifyContent, alignContent];
+  }
+  if (style2["grid-child"]) {
+    const justifySelf = style2["justify-self"];
+    const alignSelf = style2["align-self"];
+    const gridColumnPos = style2["grid-column-pos"];
+    const gridRowPos = style2["grid-row-pos"];
+    const gridColumnSpan = style2["grid-column-span"] || 1;
+    const gridRowSpan = style2["grid-row-span"] || 1;
+    if (isNaN(gridColumnPos + gridColumnSpan + gridRowPos + gridRowSpan))
+      return;
+    let column_align, row_align;
+    column_align = gridChildJustifySelfObj[justifySelf] || gridChildJustifySelfObj.start;
+    row_align = gridChildAlignSelfObj[alignSelf] || gridChildAlignSelfObj.start;
+    result["grid-child"] = [
+      column_align,
+      gridColumnPos,
+      gridColumnSpan,
+      row_align,
+      gridRowPos,
+      gridRowSpan
+    ];
+  }
+}
+
+// src/render/react/core/style/pipe/line.js
+var obj4 = {
+  "line-width": ProcessPx,
+  "line-color": ProcessColor
+};
+var keys4 = Object.keys(obj4);
+function LineStyle(style2, result, compName) {
+  keys4.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj4[key](key, style2[key], result);
+    }
+  });
+  if (style2["line-rounded"]) {
+    result["line-rounded"] = Boolean(style2["line-rounded"]);
+  }
+}
+
 // src/render/react/core/style/pipe/misc.js
 function MiscStyle(style2, result, compName) {
   if (style2["recolor"] && compName === "Image") {
@@ -18435,6 +18665,268 @@ function MiscStyle(style2, result, compName) {
   return result;
 }
 
+// src/render/react/core/style/pipe/opacity.js
+function NormalizeOpacity(value) {
+  if (isNaN(value) || value > 1)
+    return 255;
+  if (value <= 0)
+    return 0;
+  return Math.floor(value * 255);
+}
+function OpacityStyle(style2, result, compName) {
+  if (style2["opacity"] !== void 0) {
+    if (compName === "Image") {
+      result["img-opacity"] = NormalizeOpacity(style2["opacity"]);
+    } else {
+      result["opacity"] = NormalizeOpacity(style2["opacity"]);
+    }
+  }
+  if (style2["background-opacity"] !== void 0) {
+    result["background-opacity"] = NormalizeOpacity(style2["background-opacity"]);
+  }
+  if (style2["border-opacity"] !== void 0) {
+    result["border-opacity"] = NormalizeOpacity(style2["border-opacity"]);
+  }
+  if (style2["outline-opacity"] !== void 0) {
+    result["outline-opacity"] = NormalizeOpacity(style2["outline-opacity"]);
+  }
+  if (style2["recolor-opacity"] !== void 0 && compName === "Image") {
+    result["recolor-opacity"] = NormalizeOpacity(style2["recolor-opacity"]);
+  }
+  if (style2["shadow-opacity"] !== void 0) {
+    result["shadow-opacity"] = NormalizeOpacity(style2["shadow-opacity"]);
+  }
+  if (style2["arc-opacity"] !== void 0 && compName === "Arc") {
+    result["arc-opacity"] = NormalizeOpacity(style2["arc-opacity"]);
+  }
+  return result;
+}
+
+// src/render/react/core/style/pipe/outline.js
+var obj5 = {
+  "outline-width": ProcessPx,
+  "outline-color": ProcessColor,
+  "outline-padding": ProcessPxOrPercent
+};
+var keys5 = Object.keys(obj5);
+function OutlineStyle(style2, result, compName) {
+  keys5.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj5[key](key, style2[key], result);
+    }
+  });
+}
+
+// src/render/react/core/style/pipe/padding.js
+var keys6 = ["padding-left", "padding-top", "padding-right", "padding-bottom"];
+function PaddingStyle(style2, result, compName) {
+  keys6.forEach((key) => {
+    if (style2[key] !== void 0) {
+      ProcessPx(key, style2[key], result);
+    }
+  });
+  if (style2["padding"] !== void 0) {
+    const value = style2["padding"];
+    if (typeof value == "number") {
+      keys6.forEach((styleKey) => {
+        result[styleKey] = value;
+      });
+    } else if (typeof value == "string") {
+      const values = value.split(/\s/).filter(Boolean);
+      const len = values.length;
+      switch (len) {
+        case 1:
+          ProcessPx(keys6[0], values[0], result);
+          ProcessPx(keys6[2], values[0], result);
+          ProcessPx(keys6[1], values[0], result);
+          ProcessPx(keys6[3], values[0], result);
+          break;
+        case 2:
+          ProcessPx(keys6[0], values[1], result);
+          ProcessPx(keys6[2], values[1], result);
+          ProcessPx(keys6[1], values[0], result);
+          ProcessPx(keys6[3], values[0], result);
+          break;
+        case 4:
+          ProcessPx(keys6[1], values[0], result);
+          ProcessPx(keys6[2], values[1], result);
+          ProcessPx(keys6[3], values[2], result);
+          ProcessPx(keys6[0], values[3], result);
+          break;
+        case 3:
+          ProcessPx(keys6[1], values[0], result);
+          ProcessPx(keys6[0], values[1], result);
+          ProcessPx(keys6[2], values[1], result);
+          ProcessPx(keys6[3], values[2], result);
+          break;
+      }
+    }
+  }
+  return result;
+}
+
+// src/render/react/core/style/pipe/pos.js
+var obj6 = {
+  height: ProcessPxOrPercent,
+  "max-height": ProcessPxOrPercent,
+  "min-height": ProcessPxOrPercent,
+  width: ProcessPxOrPercent,
+  "max-width": ProcessPxOrPercent,
+  "min-width": ProcessPxOrPercent,
+  left: ProcessPxOrPercent,
+  top: ProcessPxOrPercent,
+  "row-spacing": ProcessPxOrPercent,
+  "column-spacing": ProcessPxOrPercent,
+  position: ProcessEnum({
+    absolute: "absolute",
+    fixed: "fixed"
+  })
+};
+var keys7 = Object.keys(obj6);
+function PosStyle(style2, result, compName) {
+  keys7.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj6[key](key, style2[key], result);
+    }
+  });
+}
+
+// src/render/react/core/style/pipe/scoll.js
+var obj7 = {
+  overflow: ProcessEnum({
+    hidden: 1,
+    scroll: 0,
+    auto: 0
+  }),
+  "overflow-scrolling": ProcessEnum({
+    auto: 0,
+    touch: 1
+  }),
+  "scroll-dir": ProcessEnum({
+    none: 0,
+    left: 1 << 0,
+    right: 1 << 1,
+    top: 1 << 2,
+    bottom: 1 << 3,
+    horizontal: 1 << 0 | 1 << 1,
+    vertical: 1 << 2 | 1 << 3,
+    all: 1 << 0 | 1 << 1 | 1 << 2 | 1 << 3
+  }),
+  "scroll-snap-x": ProcessEnum({
+    none: 0,
+    snap_start: 1,
+    snap_end: 2,
+    snap_center: 3
+  }),
+  "scroll-snap-y": ProcessEnum({
+    none: 0,
+    snap_start: 1,
+    snap_end: 2,
+    snap_center: 3
+  }),
+  "scroll-enable-snap": ProcessBoolean
+};
+var keys8 = Object.keys(obj7);
+function ScrollStyle(style2, result, compName) {
+  keys8.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj7[key](key, style2[key], result);
+    }
+  });
+}
+
+// src/render/react/core/style/pipe/shadow.js
+var obj8 = {
+  "shadow-width": ProcessPx,
+  "shadow-color": ProcessColor,
+  "shadow-offset-x": ProcessPx,
+  "shadow-offset-y": ProcessPx,
+  "shadow-spread": ProcessPx
+};
+var keys9 = Object.keys(obj8);
+function ShadowStyle(style2, result, compName) {
+  keys9.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj8[key](key, style2[key], result);
+    }
+  });
+}
+
+// src/render/react/core/style/pipe/text.js
+var builtInFontList = [
+  8,
+  10,
+  12,
+  14,
+  16,
+  18,
+  20,
+  22,
+  24,
+  26,
+  28,
+  30,
+  32,
+  34,
+  36,
+  38,
+  40,
+  42,
+  44,
+  46,
+  48
+];
+var obj9 = {
+  "text-color": ProcessColor,
+  "letter-spacing": ProcessPx,
+  "line-spacing": ProcessPx,
+  "text-overflow": ProcessEnum({
+    ellipsis: 1,
+    clip: 4,
+    auto: 0,
+    scroll: 2,
+    circular: 3
+  }),
+  "text-align": ProcessEnum({
+    auto: 0,
+    left: 1,
+    center: 2,
+    right: 3
+  }),
+  "text-decoration": ProcessEnum({
+    none: 0,
+    underline: 1,
+    strikethrough: 2
+  }),
+  "font-size": ProcessPx
+};
+var keys10 = Object.keys(obj9);
+function TextStyle(style2, result, compName) {
+  keys10.forEach((key) => {
+    if (style2[key] !== void 0) {
+      obj9[key](key, style2[key], result);
+    }
+  });
+  if (style2["font-size"]) {
+    let size = style2["font-size"];
+    if (typeof size == "string") {
+      const reg = /(\d+\.?\d*)(px)?$/;
+      size = size.replace(/(^\s*)|(\s*$)/g, "").match(reg)?.[1];
+    }
+    if (isNaN(size))
+      return result;
+    if (size % 2 == 1) {
+      size += 1;
+    }
+    size = Math.min(builtInFontList[builtInFontList.length - 1], Math.max(builtInFontList[0], size));
+    if (compName === "Text") {
+      result["font-size"] = builtInFontList.indexOf(size);
+    } else {
+      result["font-size-1"] = builtInFontList.indexOf(size);
+    }
+  }
+}
+
 // src/render/react/core/style/pipe/trans.js
 var LV_STYLE_PROP_LAYOUT_REFR = 1 << 12;
 var LV_STYLE_PROP_EXT_DRAW = 1 << 11;
@@ -18442,16 +18934,16 @@ var LV_STYLE_PROP_PARENT_LAYOUT_REFR = 1 << 13;
 var LV_STYLE_PROP_FILTER = 1 << 14;
 var LV_STYLE_PROP_INHERIT = 1 << 10;
 var transitionProperty = {
-  "width": 1,
+  width: 1,
   "min-width": 2,
   "max-width": 3,
-  "height": 4,
+  height: 4,
   "min-height": 5,
   "max-height": 6,
-  "left": 7,
-  "top": 8,
-  "align": 9,
-  "display": 10,
+  left: 7,
+  top: 8,
+  align: 9,
+  display: 10,
   "border-radius": 11,
   "padding-top": 16,
   "padding-bottom": 17,
@@ -18510,13 +19002,13 @@ var transitionProperty = {
   "line-height": 89,
   "text-decor": 90,
   "text-align": 91,
-  "opacity": 96,
+  opacity: 96,
   "color-filter-dsc": 97,
   "color-filter-opacity": 98,
-  "animate": 99,
+  animate: 99,
   "animate-time": 100,
   "animate-speed": 101,
-  "transition": 102,
+  transition: 102,
   "blend-mode": 103,
   "transform-width": 104,
   "transform-height": 105,
@@ -18527,7 +19019,17 @@ var transitionProperty = {
   "transform-pivot-x": 110,
   "transform-pivot-y": 111
 };
-var transformSupportKeys = ["translate", "translate-x", "translate-y", "scale", "scaleX", "scaleY", "rotate", "transform-width", "transform-height"];
+var transformSupportKeys = [
+  "translate",
+  "translate-x",
+  "translate-y",
+  "scale",
+  "scaleX",
+  "scaleY",
+  "rotate",
+  "transform-width",
+  "transform-height"
+];
 function TransStyle(style2, result, compName) {
   if (style2["transition-property"]) {
     let properties = style2["transition-property"];
@@ -18535,7 +19037,13 @@ function TransStyle(style2, result, compName) {
     const duration = style2["transition-duration"] || 0;
     const func = style2["transition-timing-function"] || "linear";
     const delay = style2["transition-delay"] || 0;
-    const trans = [properties.length, properties, NormalizeTime(duration), func, delay];
+    const trans = [
+      properties.length,
+      properties,
+      NormalizeTime(duration),
+      func,
+      delay
+    ];
     result["transition"] = trans;
   }
   if (style2["transform"]) {
@@ -18577,454 +19085,6 @@ function TransStyle(style2, result, compName) {
   return result;
 }
 
-// src/render/react/core/style/pipe/padding.js
-var keys = ["padding-left", "padding-top", "padding-right", "padding-bottom"];
-function PaddingStyle(style2, result, compName) {
-  keys.forEach((key) => {
-    if (style2[key] !== void 0) {
-      ProcessPx(key, style2[key], result);
-    }
-  });
-  if (style2["padding"] !== void 0) {
-    const value = style2["padding"];
-    if (typeof value == "number") {
-      keys.forEach((styleKey) => {
-        result[styleKey] = value;
-      });
-    } else if (typeof value == "string") {
-      const values = value.split(/\s/).filter(Boolean);
-      const len = values.length;
-      switch (len) {
-        case 1:
-          ProcessPx(keys[0], values[0], result);
-          ProcessPx(keys[2], values[0], result);
-          ProcessPx(keys[1], values[0], result);
-          ProcessPx(keys[3], values[0], result);
-          break;
-        case 2:
-          ProcessPx(keys[0], values[1], result);
-          ProcessPx(keys[2], values[1], result);
-          ProcessPx(keys[1], values[0], result);
-          ProcessPx(keys[3], values[0], result);
-          break;
-        case 4:
-          ProcessPx(keys[1], values[0], result);
-          ProcessPx(keys[2], values[1], result);
-          ProcessPx(keys[3], values[2], result);
-          ProcessPx(keys[0], values[3], result);
-          break;
-        case 3:
-          ProcessPx(keys[1], values[0], result);
-          ProcessPx(keys[0], values[1], result);
-          ProcessPx(keys[2], values[1], result);
-          ProcessPx(keys[3], values[2], result);
-          break;
-      }
-    }
-  }
-  return result;
-}
-
-// src/render/react/core/style/pipe/background.js
-var obj = {
-  "background-color": ProcessColor,
-  "background-grad-color": ProcessColor,
-  "background-grad-color-dir": ProcessEnum({
-    "none": 0,
-    "vertical": 1,
-    "horizontal": 2
-  })
-};
-var keys2 = Object.keys(obj);
-function BackgroundStyle(style2, result, compName) {
-  keys2.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj[key](key, style2[key], result);
-    }
-  });
-}
-
-// src/render/react/core/style/pipe/pos.js
-var obj2 = {
-  "height": ProcessPxOrPercent,
-  "max-height": ProcessPxOrPercent,
-  "min-height": ProcessPxOrPercent,
-  "width": ProcessPxOrPercent,
-  "max-width": ProcessPxOrPercent,
-  "min-width": ProcessPxOrPercent,
-  "left": ProcessPxOrPercent,
-  "top": ProcessPxOrPercent,
-  "row-spacing": ProcessPxOrPercent,
-  "column-spacing": ProcessPxOrPercent,
-  "position": ProcessEnum({
-    "absolute": "absolute",
-    "fixed": "fixed"
-  })
-};
-var keys3 = Object.keys(obj2);
-function PosStyle(style2, result, compName) {
-  keys3.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj2[key](key, style2[key], result);
-    }
-  });
-}
-
-// src/render/react/core/style/pipe/border.js
-var obj3 = {
-  "border-radius": ProcessPx,
-  "border-width": ProcessPx,
-  "border-color": ProcessColor,
-  "border-side": ProcessEnum({
-    "left": 4,
-    "right": 8,
-    "full": 15,
-    "top": 2,
-    "bottom": 1,
-    "top-right": 2 | 8,
-    "top-bottom": 2 | 1,
-    "top-left": 2 | 4,
-    "right-bottom": 8 | 1,
-    "right-left": 8 | 4,
-    "bottom-left": 1 | 4
-  })
-};
-var keys4 = Object.keys(obj3);
-function BorderStyle(style2, result, compName) {
-  keys4.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj3[key](key, style2[key], result);
-    }
-  });
-}
-
-// src/render/react/core/style/pipe/outline.js
-var obj4 = {
-  "outline-width": ProcessPx,
-  "outline-color": ProcessColor,
-  "outline-padding": ProcessPxOrPercent
-};
-var keys5 = Object.keys(obj4);
-function OutlineStyle(style2, result, compName) {
-  keys5.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj4[key](key, style2[key], result);
-    }
-  });
-}
-
-// src/render/react/core/style/pipe/text.js
-var builtInFontList = [8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48];
-var obj5 = {
-  "text-color": ProcessColor,
-  "letter-spacing": ProcessPx,
-  "line-spacing": ProcessPx,
-  "text-overflow": ProcessEnum({
-    "ellipsis": 1,
-    "clip": 4,
-    "auto": 0,
-    "scroll": 2,
-    "circular": 3
-  }),
-  "text-align": ProcessEnum({
-    "auto": 0,
-    "left": 1,
-    "center": 2,
-    "right": 3
-  }),
-  "text-decoration": ProcessEnum({
-    "none": 0,
-    "underline": 1,
-    "strikethrough": 2
-  }),
-  "font-size": ProcessPx
-};
-var keys6 = Object.keys(obj5);
-function TextStyle(style2, result, compName) {
-  keys6.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj5[key](key, style2[key], result);
-    }
-  });
-  if (style2["font-size"]) {
-    let size = style2["font-size"];
-    if (typeof size == "string") {
-      const reg = /(\d+\.?\d*)(px)?$/;
-      size = size.replace(/(^\s*)|(\s*$)/g, "").match(reg)?.[1];
-    }
-    if (isNaN(size))
-      return result;
-    if (size % 2 == 1) {
-      size += 1;
-    }
-    size = Math.min(builtInFontList[builtInFontList.length - 1], Math.max(builtInFontList[0], size));
-    if (compName === "Text") {
-      result["font-size"] = builtInFontList.indexOf(size);
-    } else {
-      result["font-size-1"] = builtInFontList.indexOf(size);
-    }
-  }
-}
-
-// src/render/react/core/style/pipe/flex.js
-var flexFlowObj = {
-  "row_nowrap": 0,
-  "column_nowrap": 1 << 0,
-  "row_wrap": 0 | 1 << 2,
-  "column_wrap": 1 << 0 | 1 << 2,
-  "row_wrap-reverse": 0 | 1 << 2 | 1 << 3,
-  "column_wrap-reverse": 1 << 0 | 1 << 2 | 1 << 3,
-  "row_reverse": 0 | 1 << 3,
-  "column_reverse": 0 | 1 << 3
-};
-var flexAlignObj = {
-  "flex-start": 0,
-  "flex-end": 1,
-  "center": 2,
-  "space-evenly": 3,
-  "space-around": 4,
-  "space-between": 5
-};
-function FlexStyle(style2, result) {
-  if (style2.display !== "flex")
-    return result;
-  let flexFlow = 0;
-  const flexDirection = style2["flex-direction"] || "row";
-  const flexWrap = style2["flex-wrap"] || "nowrap";
-  if (flexFlowObj[`${flexDirection}_${flexWrap}`]) {
-    flexFlow = flexFlowObj[`${flexDirection}_${flexWrap}`];
-  }
-  result["flex-flow"] = flexFlow;
-  let mainPlace = 0;
-  let crossPlace = 0;
-  let trackCrossPlace = 0;
-  const justifyContent = style2["justify-content"];
-  const alignItems = style2["align-items"];
-  const alignContent = style2["align-content"] || (flexWrap === "nowrap" ? alignItems : "flex-start");
-  if (flexAlignObj[justifyContent]) {
-    mainPlace = flexAlignObj[justifyContent];
-  }
-  if (flexAlignObj[alignItems]) {
-    crossPlace = flexAlignObj[alignItems];
-  }
-  trackCrossPlace = alignContent ? flexAlignObj[alignContent] : crossPlace;
-  if (justifyContent) {
-    result["justify-content"] = mainPlace;
-  }
-  if (alignItems) {
-    result["align-items"] = crossPlace;
-  }
-  if (alignContent) {
-    result["align-content"] = trackCrossPlace;
-  }
-  if (!isNaN(style2["flex-grow"])) {
-    result["flex-grow"] = style2["flex-grow"];
-  }
-  return result;
-}
-
-// src/render/react/core/style/pipe/grid.js
-var GRID_CONTENT = (1 << 13) - 1 - 101;
-var FR_REG = /([\d]+)fr$/;
-var gridChildJustifySelfObj = {
-  "start": 0,
-  "end": 2,
-  "center": 1,
-  "stretch": 3
-};
-var gridChildAlignSelfObj = {
-  "start": 0,
-  "end": 2,
-  "center": 1,
-  "stretch": 3
-};
-var gridJustifyContentObj = {
-  "start": 0,
-  "end": 2,
-  "center": 1,
-  "space-evenly": 4,
-  "space-around": 5,
-  "space-between": 6,
-  "stretch": 3
-};
-var gridAlignItemsObj = {
-  "start": 0,
-  "end": 2,
-  "center": 1,
-  "space-evenly": 4,
-  "space-around": 5,
-  "space-between": 6,
-  "stretch": 3
-};
-function GridStyle(style2, result) {
-  if (style2.display == "grid") {
-    let columns = style2["grid-template-columns"]?.split(/\s/).filter(Boolean);
-    let rows = style2["grid-template-rows"]?.split(/\s/).filter(Boolean);
-    if (!columns || !rows)
-      return;
-    columns = columns.map((column) => {
-      if (column === "auto") {
-        return GRID_CONTENT;
-      }
-      const arr = column?.match(FR_REG);
-      if (!isNaN(arr?.[1])) {
-        return (1 << 13) - 1 - 100 + Number(arr[1]);
-      }
-      return NormalizePx(column);
-    });
-    rows = rows.map((row) => {
-      if (row === "auto") {
-        return GRID_CONTENT;
-      }
-      const arr = row?.match(FR_REG);
-      if (!isNaN(arr?.[1])) {
-        return (1 << 13) - 1 - 100 + Number(arr[1]);
-      }
-      return NormalizePx(row);
-    });
-    columns = columns.filter(Boolean);
-    rows = rows.filter(Boolean);
-    result["display"] = "grid";
-    result["grid-template"] = [columns, rows];
-    const justifyContent = gridJustifyContentObj[style2["justify-content"]] || gridJustifyContentObj.start;
-    const alignContent = gridAlignItemsObj[style2["align-items"]] || gridAlignItemsObj.start;
-    result["grid-align"] = [justifyContent, alignContent];
-  }
-  if (style2["grid-child"]) {
-    const justifySelf = style2["justify-self"];
-    const alignSelf = style2["align-self"];
-    const gridColumnPos = style2["grid-column-pos"];
-    const gridRowPos = style2["grid-row-pos"];
-    const gridColumnSpan = style2["grid-column-span"] || 1;
-    const gridRowSpan = style2["grid-row-span"] || 1;
-    if (isNaN(gridColumnPos + gridColumnSpan + gridRowPos + gridRowSpan))
-      return;
-    let column_align, row_align;
-    column_align = gridChildJustifySelfObj[justifySelf] || gridChildJustifySelfObj.start;
-    row_align = gridChildAlignSelfObj[alignSelf] || gridChildAlignSelfObj.start;
-    result["grid-child"] = [column_align, gridColumnPos, gridColumnSpan, row_align, gridRowPos, gridRowSpan];
-  }
-}
-
-// src/render/react/core/style/pipe/scoll.js
-var obj6 = {
-  "overflow": ProcessEnum({
-    "hidden": 1,
-    "scroll": 0,
-    "auto": 0
-  }),
-  "overflow-scrolling": ProcessEnum({
-    "auto": 0,
-    "touch": 1
-  }),
-  "scroll-dir": ProcessEnum({
-    "none": 0,
-    "left": 1 << 0,
-    "right": 1 << 1,
-    "top": 1 << 2,
-    "bottom": 1 << 3,
-    "horizontal": 1 << 0 | 1 << 1,
-    "vertical": 1 << 2 | 1 << 3,
-    "all": 1 << 0 | 1 << 1 | 1 << 2 | 1 << 3
-  }),
-  "scroll-snap-x": ProcessEnum({
-    "none": 0,
-    "snap_start": 1,
-    "snap_end": 2,
-    "snap_center": 3
-  }),
-  "scroll-snap-y": ProcessEnum({
-    "none": 0,
-    "snap_start": 1,
-    "snap_end": 2,
-    "snap_center": 3
-  }),
-  "scroll-enable-snap": ProcessBoolean
-};
-var keys7 = Object.keys(obj6);
-function ScrollStyle(style2, result, compName) {
-  keys7.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj6[key](key, style2[key], result);
-    }
-  });
-}
-
-// src/render/react/core/style/pipe/opacity.js
-function NormalizeOpacity(value) {
-  if (isNaN(value) || value > 1)
-    return 255;
-  if (value <= 0)
-    return 0;
-  return Math.floor(value * 255);
-}
-function OpacityStyle(style2, result, compName) {
-  if (style2["opacity"] !== void 0) {
-    if (compName === "Image") {
-      result["img-opacity"] = NormalizeOpacity(style2["opacity"]);
-    } else {
-      result["opacity"] = NormalizeOpacity(style2["opacity"]);
-    }
-  }
-  if (style2["background-opacity"] !== void 0) {
-    result["background-opacity"] = NormalizeOpacity(style2["background-opacity"]);
-  }
-  if (style2["border-opacity"] !== void 0) {
-    result["border-opacity"] = NormalizeOpacity(style2["border-opacity"]);
-  }
-  if (style2["outline-opacity"] !== void 0) {
-    result["outline-opacity"] = NormalizeOpacity(style2["outline-opacity"]);
-  }
-  if (style2["recolor-opacity"] !== void 0 && compName === "Image") {
-    result["recolor-opacity"] = NormalizeOpacity(style2["recolor-opacity"]);
-  }
-  if (style2["shadow-opacity"] !== void 0) {
-    result["shadow-opacity"] = NormalizeOpacity(style2["shadow-opacity"]);
-  }
-  return result;
-}
-
-// src/render/react/core/style/pipe/line.js
-var obj7 = {
-  "line-width": ProcessPx,
-  "line-color": ProcessColor
-};
-var keys8 = Object.keys(obj7);
-function LineStyle(style2, result, compName) {
-  keys8.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj7[key](key, style2[key], result);
-    }
-  });
-  if (style2["line-rounded"]) {
-    result["line-rounded"] = Boolean(style2["line-rounded"]);
-  }
-}
-
-// src/render/react/core/style/pipe/shadow.js
-var obj8 = {
-  "shadow-width": ProcessPx,
-  "shadow-color": ProcessColor,
-  "shadow-offset-x": ProcessPx,
-  "shadow-offset-y": ProcessPx,
-  "shadow-spread": ProcessPx
-};
-var keys9 = Object.keys(obj8);
-function ShadowStyle(style2, result, compName) {
-  keys9.forEach((key) => {
-    if (style2[key] !== void 0) {
-      obj8[key](key, style2[key], result);
-    }
-  });
-}
-
-// src/render/react/core/style/pipe/display.js
-function DisplayStyle(style2, result, compName) {
-  if (style2["display"]) {
-    result["display"] = style2["display"];
-  }
-}
-
 // src/render/react/utils/helpers.ts
 function isValidUrl(str) {
   if (!str)
@@ -19039,66 +19099,66 @@ function isValidUrl(str) {
 
 // src/render/react/core/style/symbol.js
 var BUILT_IN_SYMBOL = {
-  "audio": "\uF001",
-  "video": "\uF008",
-  "list": "\uF00B",
-  "ok": "\uF00C",
-  "close": "\uF00D",
-  "power": "\uF011",
-  "settings": "\uF013",
-  "home": "\uF015",
-  "download": "\uF019",
-  "drive": "\uF01C",
-  "refresh": "\uF021",
-  "mute": "\uF026",
-  "volume_mid": "\uF027",
-  "volume_max": "\uF028",
-  "image": "\uF03E",
-  "tint": "\uF043",
-  "prev": "\uF048",
-  "play": "\uF04B",
-  "pause": "\uF04C",
-  "stop": "\uF04D",
-  "next": "\uF051",
-  "eject": "\uF052",
-  "left": "\uF053",
-  "right": "\uF054",
-  "plus": "\uF067",
-  "minus": "\uF068",
-  "eye_open": "\uF06E",
-  "eye_close": "\uF070",
-  "warning": "\uF071",
-  "shuffle": "\uF074",
-  "up": "\uF077",
-  "down": "\uF078",
-  "loop": "\uF079",
-  "directory": "\uF07B",
-  "upload": "\uF093",
-  "call": "\uF095",
-  "cut": "\uF0C4",
-  "copy": "\uF0C5",
-  "save": "\uF0C7",
-  "bars": "\uF0C9",
-  "envelope": "\uF0E0",
-  "charge": "\uF0E7",
-  "paste": "\uF0EA",
-  "bell": "\uF0F3",
-  "keyboard": "\uF11C",
-  "gps": "\uF124",
-  "file": "\uF158",
-  "wifi": "\uF1EB",
-  "battery_full": "\uF240",
-  "battery_3": "\uF241",
-  "battery_2": "\uF242",
-  "battery_1": "\uF243",
-  "battery_empty": "\uF244",
-  "usb": "\uF287",
-  "bluetooth": "\uF293",
-  "trash": "\uF2ED",
-  "edit": "\uF304",
-  "backspace": "\uF55A",
-  "sd_card": "\uF7C2",
-  "new_line": "\uF8A2"
+  audio: "\uF001",
+  video: "\uF008",
+  list: "\uF00B",
+  ok: "\uF00C",
+  close: "\uF00D",
+  power: "\uF011",
+  settings: "\uF013",
+  home: "\uF015",
+  download: "\uF019",
+  drive: "\uF01C",
+  refresh: "\uF021",
+  mute: "\uF026",
+  volume_mid: "\uF027",
+  volume_max: "\uF028",
+  image: "\uF03E",
+  tint: "\uF043",
+  prev: "\uF048",
+  play: "\uF04B",
+  pause: "\uF04C",
+  stop: "\uF04D",
+  next: "\uF051",
+  eject: "\uF052",
+  left: "\uF053",
+  right: "\uF054",
+  plus: "\uF067",
+  minus: "\uF068",
+  eye_open: "\uF06E",
+  eye_close: "\uF070",
+  warning: "\uF071",
+  shuffle: "\uF074",
+  up: "\uF077",
+  down: "\uF078",
+  loop: "\uF079",
+  directory: "\uF07B",
+  upload: "\uF093",
+  call: "\uF095",
+  cut: "\uF0C4",
+  copy: "\uF0C5",
+  save: "\uF0C7",
+  bars: "\uF0C9",
+  envelope: "\uF0E0",
+  charge: "\uF0E7",
+  paste: "\uF0EA",
+  bell: "\uF0F3",
+  keyboard: "\uF11C",
+  gps: "\uF124",
+  file: "\uF158",
+  wifi: "\uF1EB",
+  battery_full: "\uF240",
+  battery_3: "\uF241",
+  battery_2: "\uF242",
+  battery_1: "\uF243",
+  battery_empty: "\uF244",
+  usb: "\uF287",
+  bluetooth: "\uF293",
+  trash: "\uF2ED",
+  edit: "\uF304",
+  backspace: "\uF55A",
+  sd_card: "\uF7C2",
+  new_line: "\uF8A2"
 };
 
 // src/render/react/core/style/post.js
@@ -19131,6 +19191,27 @@ function PostProcessStyle({ comp, styleSheet, styleType }) {
       getImageBinary(url).then((buffer) => comp.setBackgroundImage(Buffer.from(buffer).buffer), styleType).catch(console.warn);
     }
   }
+  if (styleSheet["arc-image"] !== void 0) {
+    let url = styleSheet["arc-image"];
+    if (BUILT_IN_SYMBOL[url]) {
+      comp.setArcImage(null, styleType, BUILT_IN_SYMBOL[url]);
+      return;
+    }
+    if (url === null) {
+      comp.setArcImage(null, styleType);
+    } else if (!isValidUrl(url)) {
+      if (!path.isAbsolute(url)) {
+        url = path.resolve(__dirname, url);
+      }
+      fs.readFile(url, { encoding: "binary" }).then((data) => {
+        comp.setArcImage(data.buffer, styleType);
+      }).catch((e) => {
+        console.log("setArcImage error", e);
+      });
+    } else {
+      getImageBinary(url).then((buffer) => comp.setArcImage(Buffer.from(buffer).buffer), styleType).catch(console.warn);
+    }
+  }
 }
 
 // src/render/react/core/style/index.js
@@ -19148,12 +19229,12 @@ var _StyleSheet = class {
   }
   static create() {
     return new Proxy({ __dirty: true }, {
-      set(obj9, prop, value) {
+      set(obj10, prop, value) {
         if (prop !== "__dirty") {
-          obj9[prop] = value;
-          obj9.__dirty = true;
+          obj10[prop] = value;
+          obj10.__dirty = true;
         } else {
-          obj9.__dirty = value;
+          obj10.__dirty = value;
         }
       }
     });
@@ -19176,9 +19257,18 @@ StyleSheet.pipeline([
   TransStyle,
   LineStyle,
   ShadowStyle,
-  DisplayStyle
+  DisplayStyle,
+  ArcStyle
 ]);
-function setStyle({ comp, styleSheet, compName, styleType, oldStyleSheet, isInit = true, defaultStyle = {} } = {}) {
+function setStyle({
+  comp,
+  styleSheet,
+  compName,
+  styleType,
+  oldStyleSheet,
+  isInit = true,
+  defaultStyle = {}
+} = {}) {
   if (!styleSheet)
     return;
   styleSheet = Array.isArray(styleSheet) ? styleSheet : [styleSheet];
@@ -19188,8 +19278,8 @@ function setStyle({ comp, styleSheet, compName, styleType, oldStyleSheet, isInit
     return;
   styleSheet = Object.assign({}, defaultStyle, ...styleSheet);
   const result = StyleSheet.transform(styleSheet, compName);
-  const keys10 = Object.keys(result);
-  comp.nativeSetStyle(result, keys10, keys10.length, styleType, isInit);
+  const keys11 = Object.keys(result);
+  comp.nativeSetStyle(result, keys11, keys11.length, styleType, isInit);
   PostProcessStyle({ comp, styleSheet, styleType });
 }
 
@@ -19229,51 +19319,79 @@ var STYLE_TYPE = {
   STATE_DISABLED: 128
 };
 var EDropdownlistDirection = {
-  "none": 0,
-  "left": 1 << 0,
-  "right": 1 << 1,
-  "top": 1 << 2,
-  "bottom": 1 << 3,
-  "horizontal": 1 << 0 | 1 << 1,
-  "vertical": 1 << 2 | 1 << 3,
-  "all": 1 << 0 | 1 << 1 | 1 << 2 | 1 << 3
+  none: 0,
+  left: 1 << 0,
+  right: 1 << 1,
+  top: 1 << 2,
+  bottom: 1 << 3,
+  horizontal: 1 << 0 | 1 << 1,
+  vertical: 1 << 2 | 1 << 3,
+  all: 1 << 0 | 1 << 1 | 1 << 2 | 1 << 3
 };
 var styleGetterProp = ["height", "width", "left", "top"];
 
 // src/render/react/components/common/index.js
-var CommonComponentApi = function({ compName, comp, newProps, oldProps }) {
+var CommonComponentApi = function({
+  compName,
+  comp,
+  newProps,
+  oldProps
+}) {
   return {
     style(styleSheet) {
-      setStyle({ comp, styleSheet, compName, styleType: STYLE_TYPE.PART_MAIN, oldStyleSheet: oldProps.style });
+      setStyle({
+        comp,
+        styleSheet,
+        compName,
+        styleType: STYLE_TYPE.PART_MAIN,
+        oldStyleSheet: oldProps.style
+      });
     },
-    align({
-      type,
-      pos = [0, 0]
-    }) {
+    align({ type, pos = [0, 0] }) {
       if (!type || type === oldProps.align?.type && newProps.align?.pos?.[0] === oldProps.align?.pos?.[0] && newProps.align?.pos?.[1] === oldProps.align?.pos?.[1])
         return;
       comp.align(type, pos);
     },
-    alignTo({
-      type,
-      pos = [0, 0],
-      parent
-    }) {
+    alignTo({ type, pos = [0, 0], parent }) {
       if (!type || type === oldProps.alignTo?.type && newProps.alignTo?.pos?.[0] === oldProps.alignTo?.pos?.[0] && newProps.alignTo?.pos?.[1] === oldProps.alignTo?.pos?.[1] && parent?.uid === oldProps.alignTo?.parent?.uid)
         return;
       comp.alignTo(type, pos, parent);
     },
     scrollbarStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName, styleType: STYLE_TYPE.PART_SCROLLBAR, oldStyleSheet: oldProps.scrollbarStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName,
+        styleType: STYLE_TYPE.PART_SCROLLBAR,
+        oldStyleSheet: oldProps.scrollbarStyle
+      });
     },
     onScrollbarPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName, styleType: STYLE_TYPE.PART_SCROLLBAR | STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onScrollbarPressedStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName,
+        styleType: STYLE_TYPE.PART_SCROLLBAR | STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onScrollbarPressedStyle
+      });
     },
     onScrollbarScrollingStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName, styleType: STYLE_TYPE.PART_SCROLLBAR | STYLE_TYPE.STATE_SCROLLED, oldStyleSheet: oldProps.scrollbarScrollingStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName,
+        styleType: STYLE_TYPE.PART_SCROLLBAR | STYLE_TYPE.STATE_SCROLLED,
+        oldStyleSheet: oldProps.scrollbarScrollingStyle
+      });
     },
     onPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName, styleType: STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onPressedStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName,
+        styleType: STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onPressedStyle
+      });
     },
     onClick(fn) {
       handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
@@ -19296,12 +19414,129 @@ var CommonComponentApi = function({ compName, comp, newProps, oldProps }) {
   };
 };
 
-// src/render/react/components/View/comp.js
+// src/render/react/components/Arc/comp.js
 var bridge = globalThis.SJSJSBridge;
-var NativeView = bridge.NativeRender.NativeComponents.View;
-function setViewProps(comp, newProps, oldProps) {
+var NativeArc = bridge.NativeRender.NativeComponents.Arc;
+var modes = {
+  normal: 0,
+  symmetrical: 1,
+  reverse: 2
+};
+function setArcProps(comp, newProps, oldProps) {
   const setter = {
-    ...CommonComponentApi({ compName: "View", comp, newProps, oldProps })
+    ...CommonComponentApi({ compName: "Arc", comp, newProps, oldProps }),
+    indicatorStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Arc",
+        styleType: STYLE_TYPE.PART_INDICATOR,
+        oldStyleSheet: oldProps.indicatorStyle
+      });
+    },
+    onIndicatorPressedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Arc",
+        styleType: STYLE_TYPE.PART_INDICATOR | STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onIndicatorPressedStyle
+      });
+    },
+    onPressedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Arc",
+        styleType: STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onPressedStyle
+      });
+    },
+    knobStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Arc",
+        styleType: STYLE_TYPE.PART_KNOB,
+        oldStyleSheet: oldProps.knobStyle
+      });
+    },
+    onKnobPressedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Arc",
+        styleType: STYLE_TYPE.PART_KNOB | STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onKnobPressedStyle
+      });
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    },
+    range(arr) {
+      if (!Array.isArray(arr))
+        return;
+      const [min, max] = arr;
+      if (min === oldProps.range?.[0] && max === oldProps.range?.[1])
+        return;
+      if (isNaN(min) || isNaN(max))
+        return;
+      comp.setRange([min, max]);
+    },
+    value(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.value)
+        return;
+      comp.setValue(val);
+    },
+    startAngle(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.startAngle)
+        return;
+      comp.setStartAngle(val);
+    },
+    endAngle(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.endAngle)
+        return;
+      comp.setEndAngle(val);
+    },
+    backgroundStartAngle(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.backgroundStartAngle)
+        return;
+      comp.setBackgroundStartAngle(val);
+    },
+    backgroundEndAngle(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.backgroundEndAngle)
+        return;
+      comp.setBackgroundEndAngle(val);
+    },
+    rotation(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.rotation)
+        return;
+      comp.setRotation(val);
+    },
+    mode(val) {
+      if (val !== oldProps.mode && typeof modes[val] !== "undefined") {
+        comp.setMode(modes[val]);
+      }
+    },
+    changeRate(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.changeRate)
+        return;
+      comp.setChangeRate(val);
+    }
   };
   Object.keys(setter).forEach((key) => {
     if (newProps.hasOwnProperty(key)) {
@@ -19316,14 +19551,14 @@ function setViewProps(comp, newProps, oldProps) {
     }
   });
 }
-var ViewComp = class extends NativeView {
+var ArcComp = class extends NativeArc {
   constructor({ uid }) {
     super({ uid });
     this.uid = uid;
     const style2 = super.style;
     const that = this;
     this.style = new Proxy(this, {
-      get(obj9, prop) {
+      get(obj10, prop) {
         if (styleGetterProp.includes(prop)) {
           return style2[prop].call(that);
         }
@@ -19331,13 +19566,11 @@ var ViewComp = class extends NativeView {
     });
   }
   setProps(newProps, oldProps) {
-    setViewProps(this, newProps, oldProps);
+    setArcProps(this, newProps, oldProps);
   }
   insertBefore(child, beforeChild) {
-    super.insertChildBefore(child, beforeChild);
   }
   appendInitialChild(child) {
-    this.appendChild(child);
   }
   appendChild(child) {
     super.appendChild(child);
@@ -19349,111 +19582,15 @@ var ViewComp = class extends NativeView {
     super.close();
   }
   setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "View", styleType: type, oldStyleSheet: {}, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-
-// src/render/react/components/View/config.js
-var ViewConfig = class {
-  tagName = "View";
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new ViewComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  commitUnmount(instance) {
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Text/comp.js
-var bridge2 = globalThis.SJSJSBridge;
-var NativeText = bridge2.NativeRender.NativeComponents.Text;
-function setTextProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Text", comp, newProps, oldProps }),
-    children(str) {
-      const type = typeof str;
-      if ((type == "string" || type == "number") && oldProps.children !== str) {
-        comp.setText(String(str));
-      } else if (Array.isArray(str)) {
-        const isStringArr = str.every((item) => typeof item === "string" || typeof item === "number");
-        if (isStringArr) {
-          comp.setText(str.join(""));
-        }
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var TextComp = class extends NativeText {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Arc",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
     });
   }
-  setProps(newProps, oldProps) {
-    setTextProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Text", styleType: type, oldStyleSheet: {}, isInit: false });
-  }
   moveToFront() {
     super.moveToFront();
   }
@@ -19464,143 +19601,17 @@ var TextComp = class extends NativeText {
     super.scrollIntoView();
   }
 };
+__publicField(ArcComp, "tagName", "Arc");
 
-// src/render/react/components/Text/config.js
-var TextConfig = class {
-  tagName = "Text";
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new TextComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  commitUnmount(instance) {
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Image/comp.js
-var fs2 = __require("fs");
-var path2 = __require("path");
-var bridge3 = globalThis.SJSJSBridge;
-var NativeImage = bridge3.NativeRender.NativeComponents.Image;
-async function getImageBinary2(url) {
-  const resp = await fetch(url, {
-    headers: {
-      "Content-Type": "application/octet-stream"
-    }
-  });
-  const imageBuffer = await resp.arrayBuffer();
-  return imageBuffer;
-}
-function setImageProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Image", comp, newProps, oldProps }),
-    onClick(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
-    },
-    src(url) {
-      if (url && url !== oldProps.src) {
-        if (BUILT_IN_SYMBOL[url]) {
-          comp.setSymbol(BUILT_IN_SYMBOL[url]);
-          return;
-        }
-        if (!isValidUrl(url)) {
-          if (!path2.isAbsolute(url)) {
-            url = path2.resolve(__dirname, url);
-          }
-          fs2.readFile(url, { encoding: "binary" }).then((data) => {
-            comp.setImageBinary(data.buffer);
-          }).catch((e) => {
-            console.log("setImage error", e);
-          });
-        } else {
-          getImageBinary2(url).then((buffer) => comp.setImageBinary(Buffer.from(buffer).buffer)).catch(console.warn);
-        }
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var ImageComp = class extends NativeImage {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setImageProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Image", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(ImageComp, "tagName", "Image");
-
-// src/render/react/components/Image/config.js
-var ImageConfig = class {
-  tagName = "Image";
+// src/render/react/components/Arc/config.js
+var ArcConfig = class {
+  tagName = "Arc";
   native = null;
   shouldSetTextContent() {
     return false;
   }
   createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new ImageComp({ uid });
+    const instance = new ArcComp({ uid });
     instance.setProps(newProps, {});
     return instance;
   }
@@ -19622,13 +19633,19 @@ var ImageConfig = class {
 };
 
 // src/render/react/components/Button/comp.js
-var bridge4 = globalThis.SJSJSBridge;
-var NativeButton = bridge4.NativeRender.NativeComponents.Button;
+var bridge2 = globalThis.SJSJSBridge;
+var NativeButton = bridge2.NativeRender.NativeComponents.Button;
 function setButtonProps(comp, newProps, oldProps) {
   const setter = {
     ...CommonComponentApi({ compName: "Button", comp, newProps, oldProps }),
     onPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Button", styleType: STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onPressedStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Button",
+        styleType: STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onPressedStyle
+      });
     },
     onClick(fn) {
       handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
@@ -19663,7 +19680,7 @@ var ButtonComp = class extends NativeButton {
     const style2 = super.style;
     const that = this;
     this.style = new Proxy(this, {
-      get(obj9, prop) {
+      get(obj10, prop) {
         if (styleGetterProp.includes(prop)) {
           return style2[prop].call(that);
         }
@@ -19687,7 +19704,14 @@ var ButtonComp = class extends NativeButton {
     super.close();
   }
   setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Button", styleType: type, oldStyleSheet: null, isInit: false });
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Button",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
   }
   moveToFront() {
     super.moveToFront();
@@ -19730,1194 +19754,9 @@ var ButtonConfig = class {
   }
 };
 
-// src/render/react/components/Slider/comp.js
-var bridge5 = globalThis.SJSJSBridge;
-var NativeSlider = bridge5.NativeRender.NativeComponents.Slider;
-function setSliderProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Slider", comp, newProps, oldProps }),
-    indicatorStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Slider", styleType: STYLE_TYPE.PART_INDICATOR, oldStyleSheet: oldProps.indicatorStyle });
-    },
-    onIndicatorPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Slider", styleType: STYLE_TYPE.PART_INDICATOR | STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onIndicatorPressedStyle });
-    },
-    onPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Slider", styleType: STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onPressedStyle });
-    },
-    knobStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Slider", styleType: STYLE_TYPE.PART_KNOB, oldStyleSheet: oldProps.knobStyle });
-    },
-    onKnobPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Slider", styleType: STYLE_TYPE.PART_KNOB | STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onKnobPressedStyle });
-    },
-    onChange(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
-    },
-    range(arr) {
-      if (!Array.isArray(arr))
-        return;
-      const [min, max] = arr;
-      if (min === oldProps.range?.[0] && max === oldProps.range?.[1])
-        return;
-      if (isNaN(min) || isNaN(max))
-        return;
-      comp.setRange([min, max]);
-    },
-    value(val) {
-      if (isNaN(val))
-        return;
-      if (val == oldProps.value)
-        return;
-      comp.setValue(val);
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var SliderComp = class extends NativeSlider {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setSliderProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-    super.appendChild(child);
-  }
-  removeChild(child) {
-    super.removeChild(child);
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Slider", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(SliderComp, "tagName", "Slider");
-
-// src/render/react/components/Slider/config.js
-var SliderConfig = class {
-  tagName = "Slider";
-  native = null;
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new SliderComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Switch/comp.js
-var bridge6 = globalThis.SJSJSBridge;
-var NativeComp = bridge6.NativeRender.NativeComponents.Switch;
-function setSwitchProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Switch", comp, newProps, oldProps }),
-    checkedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Switch", styleType: STYLE_TYPE.STATE_CHECKED, oldStyleSheet: oldProps.checkedStyle });
-    },
-    onChange(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
-    },
-    checked(val) {
-      if (isNaN(val))
-        return;
-      if (val == oldProps.value)
-        return;
-      comp.setChecked(val);
-    },
-    disabled(val) {
-      if (val !== oldProps.disabled) {
-        comp.setDisabled(val);
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var SwitchComp = class extends NativeComp {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setSwitchProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-    this.insertChildBefore(child, beforeChild);
-  }
-  appendInitialChild(child) {
-    this.appendChild(child);
-  }
-  appendChild(child) {
-    super.appendChild(child);
-  }
-  removeChild(child) {
-    super.removeChild(child);
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Switch", styleType: type, oldStyleSheet: {}, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-
-// src/render/react/components/Switch/config.js
-var SwitchConfig = class {
-  tagName = "Switch";
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new SwitchComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  commitUnmount(instance) {
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Textarea/comp.js
-var bridge7 = globalThis.SJSJSBridge;
-var NativeView2 = bridge7.NativeRender.NativeComponents.Textarea;
-function setTextareaProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Text", comp, newProps, oldProps }),
-    placeholder(str) {
-      if (str !== oldProps.placeholder) {
-        comp.setPlaceHolder(str);
-      }
-    },
-    mode(mode) {
-      if (mode === "password") {
-        comp.setPasswordMode(true);
-      } else if (oldProps.mode === "password") {
-        comp.setPasswordMode(false);
-      }
-    },
-    onFocusStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Textarea", styleType: 2, oldStyleSheet: oldProps.onFocusStyle });
-    },
-    onChange(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
-    },
-    onFocus(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_FOCUSED);
-    },
-    value(str) {
-      if (str !== oldProps.value) {
-        comp.setText(str);
-      }
-    },
-    autoKeyBoard(payload) {
-      if (payload !== oldProps?.autoKeyBoard) {
-        comp.setAutoKeyboard(payload);
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var TextareaComp = class extends NativeView2 {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    super.setOneLine(false);
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setTextareaProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Textarea", styleType: type, oldStyleSheet: {}, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-
-// src/render/react/components/Textarea/config.js
-var TextareaConfig = class {
-  tagName = "Textarea";
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new TextareaComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  commitUnmount(instance) {
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Input/comp.js
-var bridge8 = globalThis.SJSJSBridge;
-var NativeView3 = bridge8.NativeRender.NativeComponents.Textarea;
-function setInputProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Input", comp, newProps, oldProps }),
-    placeholder(str) {
-      if (str !== oldProps.placeholder) {
-        comp.setPlaceHolder(str);
-      }
-    },
-    mode(mode) {
-      if (mode == oldProps.mode)
-        return;
-      if (mode === "password") {
-        comp.setPasswordMode(true);
-      } else if (oldProps.mode === "password") {
-        comp.setPasswordMode(false);
-      }
-    },
-    maxlength(len) {
-      if (len === oldProps.maxlength)
-        return;
-      comp.setMaxLength(len);
-    },
-    onChange(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
-    },
-    onFocus(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_FOCUSED);
-    },
-    onBlur(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_DEFOCUSED);
-    },
-    onFocusStyle(styleSheet) {
-      setStyle({ comp, compName: "Input", styleType: 2, oldStyleSheet: oldProps.onFocusStyle, styleSheet });
-    },
-    value(str) {
-      if (str !== oldProps.value) {
-        comp.setText(str);
-      }
-    },
-    autoKeyBoard(payload) {
-      if (payload !== oldProps?.autoKeyBoard) {
-        comp.setAutoKeyboard(payload);
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var InputComp = class extends NativeView3 {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    super.setOneLine(true);
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setInputProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Input", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-
-// src/render/react/components/Input/config.js
-var InputConfig = class {
-  tagName = "Input";
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new InputComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  commitUnmount(instance) {
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Keyboard/comp.js
-var bridge9 = globalThis.SJSJSBridge;
-var NativeView4 = bridge9.NativeRender.NativeComponents.Keyboard;
-var modes = {
-  "lower": 0,
-  "upper": 1,
-  "special": 2,
-  "number": 3
-};
-function setKeyboardProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Keyboard", comp, newProps, oldProps }),
-    mode(mode) {
-      if (mode !== oldProps.mode && modes[mode]) {
-        comp.setMode(modes[mode]);
-      }
-    },
-    textarea(textarea) {
-      if (textarea?.uid !== oldProps.textarea?.uid) {
-        comp.setTextarea(textarea);
-      }
-    },
-    onClose(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CANCEL);
-    },
-    onOk(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_READY);
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var KeyboardComp = class extends NativeView4 {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setKeyboardProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Keyboard", styleType: type, oldStyleSheet: {}, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-
-// src/render/react/components/Keyboard/config.js
-var KeyboardConfig = class {
-  tagName = "Keyboard";
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new KeyboardComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  commitUnmount(instance) {
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Checkbox/comp.js
-var bridge10 = globalThis.SJSJSBridge;
-var NativeView5 = bridge10.NativeRender.NativeComponents.Checkbox;
-function setCheckboxProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Checkbox", comp, newProps, oldProps }),
-    checked(val) {
-      if (val !== oldProps.checked) {
-        comp.setChecked(val);
-      }
-    },
-    disabled(val) {
-      if (val !== oldProps.disabled) {
-        comp.setDisabled(val);
-      }
-    },
-    text(val) {
-      if (val !== oldProps.text) {
-        comp.setText(val);
-      }
-    },
-    checkedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Checkbox", styleType: STYLE_TYPE.STATE_CHECKED, oldStyleSheet: oldProps.checkedStyle });
-    },
-    indicatorStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Checkbox", styleType: STYLE_TYPE.PART_INDICATOR, oldStyleSheet: oldProps.indicatorStyle });
-    },
-    indicatorCheckedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Checkbox", styleType: STYLE_TYPE.PART_INDICATOR | STYLE_TYPE.STATE_CHECKED, oldStyleSheet: oldProps.indicatorCheckedStyle });
-    },
-    onChange(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var CheckboxComp = class extends NativeView5 {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setCheckboxProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-    this.insertChildBefore(child, beforeChild);
-  }
-  appendInitialChild(child) {
-    this.appendChild(child);
-  }
-  appendChild(child) {
-    super.appendChild(child);
-  }
-  removeChild(child) {
-    super.removeChild(child);
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Checkbox", styleType: type, oldStyleSheet: {}, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-
-// src/render/react/components/Checkbox/config.js
-var CheckboxConfig = class {
-  tagName = "Checkbox";
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new CheckboxComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  commitUnmount(instance) {
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Dropdownlist/comp.js
-var bridge11 = globalThis.SJSJSBridge;
-var NativeDropdownlist = bridge11.NativeRender.NativeComponents.Dropdownlist;
-function setListProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Dropdownlist", comp, newProps, oldProps }),
-    items(items) {
-      if (items !== oldProps.items && Array.isArray(items)) {
-        comp.setItems(items, items.length);
-      }
-    },
-    arrow(arrow) {
-      if (arrow != oldProps.arrow && typeof arrow === "number") {
-        comp.setArrowDir(arrow);
-      }
-    },
-    selectIndex(selectIndex) {
-      if (selectIndex !== oldProps.selectIndex) {
-        comp.setselectIndex(selectIndex);
-      }
-    },
-    text(text) {
-      if (text !== oldProps.text) {
-        comp.setText(text);
-      }
-    },
-    direction(direction) {
-      if (direction !== oldProps.direction) {
-        comp.setDir(direction);
-      }
-    },
-    highlightSelect(payload) {
-      if (payload != oldProps.highlightSelect) {
-        comp.setHighLightSelect(payload);
-      }
-    },
-    onChange(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var DropdownlistComp = class extends NativeDropdownlist {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setListProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Dropdownlist", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(DropdownlistComp, "tagName", "Dropdownlist");
-
-// src/render/react/components/Dropdownlist/config.js
-var DropdownlistConfig = class {
-  tagName = "Dropdownlist";
-  native = null;
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new DropdownlistComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/ProgressBar/comp.js
-var bridge12 = globalThis.SJSJSBridge;
-var NativeProgressBar = bridge12.NativeRender.NativeComponents.ProgressBar;
-function setProgressBarProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "ProgressBar", comp, newProps, oldProps }),
-    style(styleSheet) {
-      if (newProps.animationTime) {
-        styleSheet["style-transition-time"] = newProps.animationTime;
-      }
-      setStyle({ comp, styleSheet, compName: "ProgressBar", styleType: STYLE_TYPE.PART_MAIN, oldStyleSheet: oldProps.style });
-    },
-    indicatorStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "ProgressBar", styleType: STYLE_TYPE.PART_INDICATOR, oldStyleSheet: oldProps.style });
-    },
-    value(value) {
-      if (value !== oldProps.value) {
-        comp.setValue(value, !!newProps.useAnimation);
-      }
-    },
-    range(arr) {
-      if (arr?.[0] !== oldProps?.arr?.[0] || arr?.[1] !== oldProps?.arr?.[1]) {
-        comp.setRange(arr[0], arr[1]);
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var ProgressBarComp = class extends NativeProgressBar {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setProgressBarProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "ProgressBar", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(ProgressBarComp, "tagName", "ProgressBar");
-
-// src/render/react/components/ProgressBar/config.js
-var ProgressBarConfig = class {
-  tagName = "ProgressBar";
-  native = null;
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new ProgressBarComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Roller/comp.js
-var bridge13 = globalThis.SJSJSBridge;
-var NativeRoller = bridge13.NativeRender.NativeComponents.Roller;
-function setRollerProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Roller", comp, newProps, oldProps }),
-    selectedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Roller", styleType: STYLE_TYPE.PART_SELECTED, oldStyleSheet: oldProps.selectedStyle });
-    },
-    options(options) {
-      if (options !== oldProps.options && Array.isArray(options)) {
-        comp.setOptions(options, options.length, !!newProps.infinity);
-      }
-    },
-    selectIndex(selectIndex) {
-      if (selectIndex !== oldProps.selectIndex) {
-        comp.setSelectIndex(selectIndex);
-      }
-    },
-    visibleRowCount(count) {
-      if (count !== oldProps.visibleRowCount) {
-        comp.setVisibleRowCount(count);
-      }
-    },
-    onChange(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var RollerComp = class extends NativeRoller {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setRollerProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Roller", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(RollerComp, "tagName", "Roller");
-
-// src/render/react/components/Roller/config.js
-var RollerConfig = class {
-  tagName = "Roller";
-  native = null;
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new RollerComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Line/comp.js
-var bridge14 = globalThis.SJSJSBridge;
-var NativeLine = bridge14.NativeRender.NativeComponents.Line;
-function setLineProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Keyboard", comp, newProps, oldProps }),
-    points(points) {
-      if (Array.isArray(points) && points !== oldProps?.points || points?.length !== oldProps?.points?.length) {
-        comp.setPoints(points, points.length);
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var LineComp = class extends NativeLine {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setLineProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-    super.appendChild(child);
-  }
-  removeChild(child) {
-    super.removeChild(child);
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Line", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(LineComp, "tagName", "Line");
-
-// src/render/react/components/Line/config.js
-var LineConfig = class {
-  tagName = "Line";
-  native = null;
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new LineComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
 // src/render/react/components/Calendar/comp.js
-var bridge15 = globalThis.SJSJSBridge;
-var NativeCalendar = bridge15.NativeRender.NativeComponents.Calendar;
+var bridge3 = globalThis.SJSJSBridge;
+var NativeCalendar = bridge3.NativeRender.NativeComponents.Calendar;
 function setCalendarProps(comp, newProps, oldProps) {
   const setter = {
     ...CommonComponentApi({ compName: "Calendar", comp, newProps, oldProps }),
@@ -20966,7 +19805,7 @@ var CalendarComp = class extends NativeCalendar {
     const style2 = super.style;
     const that = this;
     this.style = new Proxy(this, {
-      get(obj9, prop) {
+      get(obj10, prop) {
         if (styleGetterProp.includes(prop)) {
           return style2[prop].call(that);
         }
@@ -20990,7 +19829,14 @@ var CalendarComp = class extends NativeCalendar {
     super.close();
   }
   setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Calendar", styleType: type, oldStyleSheet: null, isInit: false });
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Calendar",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
   }
   moveToFront() {
     super.moveToFront();
@@ -21033,268 +19879,44 @@ var CalendarConfig = class {
   }
 };
 
-// src/render/react/components/GIF/comp.js
-var fs3 = __require("fs");
-var path3 = __require("path");
-var bridge16 = globalThis.SJSJSBridge;
-var NativeGIF = bridge16.NativeRender.NativeComponents.GIF;
-async function getGIFBinary(url) {
-  const resp = await fetch(url, {
-    headers: {
-      "Content-Type": "application/octet-stream"
-    }
-  });
-  const GIFBuffer = await resp.arrayBuffer();
-  return GIFBuffer;
-}
-function setGIFProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "GIF", comp, newProps, oldProps }),
-    onClick(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
-    },
-    src(url) {
-      if (url && url !== oldProps.src) {
-        if (BUILT_IN_SYMBOL[url]) {
-          comp.setSymbol(BUILT_IN_SYMBOL[url]);
-          return;
-        }
-        if (!isValidUrl(url)) {
-          if (!path3.isAbsolute(url)) {
-            url = path3.resolve(__dirname, url);
-          }
-          fs3.readFile(url, { encoding: "binary" }).then((data) => {
-            comp.setGIFBinary(data.buffer);
-          }).catch((e) => {
-            console.log("setGIF error", e);
-          });
-        } else {
-          getGIFBinary(url).then((buffer) => comp.setGIFBinary(Buffer.from(buffer).buffer)).catch(console.warn);
-        }
-      }
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var GIFComp = class extends NativeGIF {
-  constructor({ uid }) {
-    super({ uid });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-  }
-  setProps(newProps, oldProps) {
-    setGIFProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "GIF", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(GIFComp, "tagName", "GIF");
-
-// src/render/react/components/GIF/config.js
-var GIFConfig = class {
-  tagName = "GIF";
-  native = null;
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new GIFComp({ uid });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
-// src/render/react/components/Tabs/comp.js
-var bridge17 = globalThis.SJSJSBridge;
-var NativeTabs = bridge17.NativeRender.NativeComponents.TabView;
-function setTabsProps(comp, newProps, oldProps) {
-  const setter = {
-    ...CommonComponentApi({ compName: "Tabs", comp, newProps, oldProps }),
-    onClick(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
-    },
-    onPressed(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_PRESSED);
-    },
-    onLongPressed(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_LONG_PRESSED);
-    },
-    onLongPressRepeat(fn) {
-      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_LONG_PRESSED_REPEAT);
-    }
-  };
-  Object.keys(setter).forEach((key) => {
-    if (newProps.hasOwnProperty(key)) {
-      setter[key](newProps[key]);
-    }
-  });
-  comp.dataset = {};
-  Object.keys(newProps).forEach((prop) => {
-    const index = prop.indexOf("data-");
-    if (index === 0) {
-      comp.dataset[prop.substring(5)] = newProps[prop];
-    }
-  });
-}
-var tabPositionObj = {
-  "left": 1 << 0,
-  "top": 1 << 2,
-  "right": 1 << 1,
-  "bottom": 1 << 3
-};
-var TabsComp = class extends NativeTabs {
-  constructor({ uid, tabPosition, tabSize = 0 }) {
-    tabPosition = tabPositionObj[tabPosition] || tabPositionObj.top;
-    super({ uid, tabPosition, tabSize });
-    this.uid = uid;
-    const style2 = super.style;
-    const that = this;
-    this.style = new Proxy(this, {
-      get(obj9, prop) {
-        if (styleGetterProp.includes(prop)) {
-          return style2[prop].call(that);
-        }
-      }
-    });
-    this.currentAppendIndex = 0;
-  }
-  setProps(newProps, oldProps) {
-    this.tabs = newProps.tabs;
-    setTabsProps(this, newProps, oldProps);
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-    this.appendChild(child);
-  }
-  appendChild(child) {
-    this.setTab(this.tabs[this.currentAppendIndex] || "", child);
-    this.currentAppendIndex++;
-  }
-  removeChild(child) {
-  }
-  close() {
-    super.close();
-  }
-  setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Tabs", styleType: type, oldStyleSheet: null, isInit: false });
-  }
-  moveToFront() {
-    super.moveToFront();
-  }
-  moveToBackground() {
-    super.moveToBackground();
-  }
-  scrollIntoView() {
-    super.scrollIntoView();
-  }
-};
-__publicField(TabsComp, "tagName", "Tabs");
-
-// src/render/react/components/Tabs/config.js
-var TabsConfig = class {
-  tagName = "Tabs";
-  native = null;
-  shouldSetTextContent() {
-    return false;
-  }
-  createInstance(newProps, rootInstance, context, workInProgress, uid) {
-    const instance = new TabsComp({ uid, ...newProps });
-    instance.setProps(newProps, {});
-    return instance;
-  }
-  commitMount(instance, newProps, internalInstanceHandle) {
-  }
-  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
-    instance.setProps(newProps, oldProps);
-  }
-  setProps(newProps, oldProps) {
-  }
-  insertBefore(child, beforeChild) {
-  }
-  appendInitialChild(child) {
-  }
-  appendChild(child) {
-  }
-  removeChild(child) {
-  }
-};
-
 // src/render/react/components/Chart/comp.js
-var bridge18 = globalThis.SJSJSBridge;
-var NativeChart = bridge18.NativeRender.NativeComponents.Chart;
+var bridge4 = globalThis.SJSJSBridge;
+var NativeChart = bridge4.NativeRender.NativeComponents.Chart;
 var chartType = {
-  "none": 0,
-  "line": 1,
-  "bar": 2,
-  "scatter": 3
+  none: 0,
+  line: 1,
+  bar: 2,
+  scatter: 3
 };
 function setChartProps(comp, newProps, oldProps) {
   const setter = {
     ...CommonComponentApi({ compName: "Chart", comp, newProps, oldProps }),
     onPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Chart", styleType: STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onPressedStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Chart",
+        styleType: STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onPressedStyle
+      });
     },
     indicatorStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Chart", styleType: STYLE_TYPE.PART_INDICATOR, oldStyleSheet: oldProps.pointStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Chart",
+        styleType: STYLE_TYPE.PART_INDICATOR,
+        oldStyleSheet: oldProps.pointStyle
+      });
     },
     itemStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Chart", styleType: STYLE_TYPE.PART_ITEMS, oldStyleSheet: oldProps.pointStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Chart",
+        styleType: STYLE_TYPE.PART_ITEMS,
+        oldStyleSheet: oldProps.pointStyle
+      });
     },
     type(type) {
       if (chartType[type] !== void 0) {
@@ -21457,7 +20079,7 @@ var ChartComp = class extends NativeChart {
     const style2 = super.style;
     const that = this;
     this.style = new Proxy(this, {
-      get(obj9, prop) {
+      get(obj10, prop) {
         if (styleGetterProp.includes(prop)) {
           return style2[prop].call(that);
         }
@@ -21481,7 +20103,14 @@ var ChartComp = class extends NativeChart {
     super.close();
   }
   setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Chart", styleType: type, oldStyleSheet: null, isInit: false });
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Chart",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
   }
   moveToFront() {
     super.moveToFront();
@@ -21524,14 +20153,945 @@ var ChartConfig = class {
   }
 };
 
+// src/render/react/components/Checkbox/comp.js
+var bridge5 = globalThis.SJSJSBridge;
+var NativeView = bridge5.NativeRender.NativeComponents.Checkbox;
+function setCheckboxProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Checkbox", comp, newProps, oldProps }),
+    checked(val) {
+      if (val !== oldProps.checked) {
+        comp.setChecked(val);
+      }
+    },
+    disabled(val) {
+      if (val !== oldProps.disabled) {
+        comp.setDisabled(val);
+      }
+    },
+    text(val) {
+      if (val !== oldProps.text) {
+        comp.setText(val);
+      }
+    },
+    checkedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Checkbox",
+        styleType: STYLE_TYPE.STATE_CHECKED,
+        oldStyleSheet: oldProps.checkedStyle
+      });
+    },
+    indicatorStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Checkbox",
+        styleType: STYLE_TYPE.PART_INDICATOR,
+        oldStyleSheet: oldProps.indicatorStyle
+      });
+    },
+    indicatorCheckedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Checkbox",
+        styleType: STYLE_TYPE.PART_INDICATOR | STYLE_TYPE.STATE_CHECKED,
+        oldStyleSheet: oldProps.indicatorCheckedStyle
+      });
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var CheckboxComp = class extends NativeView {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setCheckboxProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+    this.insertChildBefore(child, beforeChild);
+  }
+  appendInitialChild(child) {
+    this.appendChild(child);
+  }
+  appendChild(child) {
+    super.appendChild(child);
+  }
+  removeChild(child) {
+    super.removeChild(child);
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Checkbox",
+      styleType: type,
+      oldStyleSheet: {},
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+
+// src/render/react/components/Checkbox/config.js
+var CheckboxConfig = class {
+  tagName = "Checkbox";
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new CheckboxComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  commitUnmount(instance) {
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Dropdownlist/comp.js
+var bridge6 = globalThis.SJSJSBridge;
+var NativeDropdownlist = bridge6.NativeRender.NativeComponents.Dropdownlist;
+function setListProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({
+      compName: "Dropdownlist",
+      comp,
+      newProps,
+      oldProps
+    }),
+    items(items) {
+      if (items !== oldProps.items && Array.isArray(items)) {
+        comp.setItems(items, items.length);
+      }
+    },
+    arrow(arrow) {
+      if (arrow != oldProps.arrow && typeof arrow === "number") {
+        comp.setArrowDir(arrow);
+      }
+    },
+    selectIndex(selectIndex) {
+      if (selectIndex !== oldProps.selectIndex) {
+        comp.setselectIndex(selectIndex);
+      }
+    },
+    text(text) {
+      if (text !== oldProps.text) {
+        comp.setText(text);
+      }
+    },
+    direction(direction) {
+      if (direction !== oldProps.direction) {
+        comp.setDir(direction);
+      }
+    },
+    highlightSelect(payload) {
+      if (payload != oldProps.highlightSelect) {
+        comp.setHighLightSelect(payload);
+      }
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var DropdownlistComp = class extends NativeDropdownlist {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setListProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Dropdownlist",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(DropdownlistComp, "tagName", "Dropdownlist");
+
+// src/render/react/components/Dropdownlist/config.js
+var DropdownlistConfig = class {
+  tagName = "Dropdownlist";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new DropdownlistComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/GIF/comp.js
+var fs2 = __require("fs");
+var path2 = __require("path");
+var bridge7 = globalThis.SJSJSBridge;
+var NativeGIF = bridge7.NativeRender.NativeComponents.GIF;
+async function getGIFBinary(url) {
+  const resp = await fetch(url, {
+    headers: {
+      "Content-Type": "application/octet-stream"
+    }
+  });
+  const GIFBuffer = await resp.arrayBuffer();
+  return GIFBuffer;
+}
+function setGIFProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "GIF", comp, newProps, oldProps }),
+    onClick(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
+    },
+    src(url) {
+      if (url && url !== oldProps.src) {
+        if (BUILT_IN_SYMBOL[url]) {
+          comp.setSymbol(BUILT_IN_SYMBOL[url]);
+          return;
+        }
+        if (!isValidUrl(url)) {
+          if (!path2.isAbsolute(url)) {
+            url = path2.resolve(__dirname, url);
+          }
+          fs2.readFile(url, { encoding: "binary" }).then((data) => {
+            comp.setGIFBinary(data.buffer);
+          }).catch((e) => {
+            console.log("setGIF error", e);
+          });
+        } else {
+          getGIFBinary(url).then((buffer) => comp.setGIFBinary(Buffer.from(buffer).buffer)).catch(console.warn);
+        }
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var GIFComp = class extends NativeGIF {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setGIFProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "GIF",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(GIFComp, "tagName", "GIF");
+
+// src/render/react/components/GIF/config.js
+var GIFConfig = class {
+  tagName = "GIF";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new GIFComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Image/comp.js
+var fs3 = __require("fs");
+var path3 = __require("path");
+var bridge8 = globalThis.SJSJSBridge;
+var NativeImage = bridge8.NativeRender.NativeComponents.Image;
+async function getImageBinary2(url) {
+  const resp = await fetch(url, {
+    headers: {
+      "Content-Type": "application/octet-stream"
+    }
+  });
+  const imageBuffer = await resp.arrayBuffer();
+  return imageBuffer;
+}
+function setImageProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Image", comp, newProps, oldProps }),
+    onClick(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
+    },
+    src(url) {
+      if (url && url !== oldProps.src) {
+        if (BUILT_IN_SYMBOL[url]) {
+          comp.setSymbol(BUILT_IN_SYMBOL[url]);
+          return;
+        }
+        if (!isValidUrl(url)) {
+          if (!path3.isAbsolute(url)) {
+            url = path3.resolve(__dirname, url);
+          }
+          fs3.readFile(url, { encoding: "binary" }).then((data) => {
+            comp.setImageBinary(data.buffer);
+          }).catch((e) => {
+            console.log("setImage error", e);
+          });
+        } else {
+          getImageBinary2(url).then((buffer) => comp.setImageBinary(Buffer.from(buffer).buffer)).catch(console.warn);
+        }
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var ImageComp = class extends NativeImage {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setImageProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Image",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(ImageComp, "tagName", "Image");
+
+// src/render/react/components/Image/config.js
+var ImageConfig = class {
+  tagName = "Image";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new ImageComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Input/comp.js
+var bridge9 = globalThis.SJSJSBridge;
+var NativeView2 = bridge9.NativeRender.NativeComponents.Textarea;
+function setInputProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Input", comp, newProps, oldProps }),
+    placeholder(str) {
+      if (str !== oldProps.placeholder) {
+        comp.setPlaceHolder(str);
+      }
+    },
+    mode(mode) {
+      if (mode == oldProps.mode)
+        return;
+      if (mode === "password") {
+        comp.setPasswordMode(true);
+      } else if (oldProps.mode === "password") {
+        comp.setPasswordMode(false);
+      }
+    },
+    maxlength(len) {
+      if (len === oldProps.maxlength)
+        return;
+      comp.setMaxLength(len);
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    },
+    onFocus(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_FOCUSED);
+    },
+    onBlur(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_DEFOCUSED);
+    },
+    onFocusStyle(styleSheet) {
+      setStyle({
+        comp,
+        compName: "Input",
+        styleType: 2,
+        oldStyleSheet: oldProps.onFocusStyle,
+        styleSheet
+      });
+    },
+    value(str) {
+      if (str !== oldProps.value) {
+        comp.setText(str);
+      }
+    },
+    autoKeyBoard(payload) {
+      if (payload !== oldProps?.autoKeyBoard) {
+        comp.setAutoKeyboard(payload);
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var InputComp = class extends NativeView2 {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    super.setOneLine(true);
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setInputProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Input",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+
+// src/render/react/components/Input/config.js
+var InputConfig = class {
+  tagName = "Input";
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new InputComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  commitUnmount(instance) {
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Keyboard/comp.js
+var bridge10 = globalThis.SJSJSBridge;
+var NativeView3 = bridge10.NativeRender.NativeComponents.Keyboard;
+var modes2 = {
+  lower: 0,
+  upper: 1,
+  special: 2,
+  number: 3
+};
+function setKeyboardProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Keyboard", comp, newProps, oldProps }),
+    mode(mode) {
+      if (mode !== oldProps.mode && typeof modes2[mode] !== "undefined") {
+        comp.setMode(modes2[mode]);
+      }
+    },
+    textarea(textarea) {
+      if (textarea?.uid !== oldProps.textarea?.uid) {
+        comp.setTextarea(textarea);
+      }
+    },
+    onClose(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CANCEL);
+    },
+    onOk(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_READY);
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var KeyboardComp = class extends NativeView3 {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setKeyboardProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Keyboard",
+      styleType: type,
+      oldStyleSheet: {},
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+
+// src/render/react/components/Keyboard/config.js
+var KeyboardConfig = class {
+  tagName = "Keyboard";
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new KeyboardComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  commitUnmount(instance) {
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Line/comp.js
+var bridge11 = globalThis.SJSJSBridge;
+var NativeLine = bridge11.NativeRender.NativeComponents.Line;
+function setLineProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Keyboard", comp, newProps, oldProps }),
+    points(points) {
+      if (Array.isArray(points) && points !== oldProps?.points || points?.length !== oldProps?.points?.length) {
+        comp.setPoints(points, points.length);
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var LineComp = class extends NativeLine {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setLineProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+    super.appendChild(child);
+  }
+  removeChild(child) {
+    super.removeChild(child);
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Line",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(LineComp, "tagName", "Line");
+
+// src/render/react/components/Line/config.js
+var LineConfig = class {
+  tagName = "Line";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new LineComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
 // src/render/react/components/Mask/comp.js
-var bridge19 = globalThis.SJSJSBridge;
-var NativeMask = bridge19.NativeRender.NativeComponents.Mask;
+var bridge12 = globalThis.SJSJSBridge;
+var NativeMask = bridge12.NativeRender.NativeComponents.Mask;
 function setMaskProps(comp, newProps, oldProps) {
   const setter = {
     ...CommonComponentApi({ compName: "Mask", comp, newProps, oldProps }),
     onPressedStyle(styleSheet) {
-      setStyle({ comp, styleSheet, compName: "Mask", styleType: STYLE_TYPE.STATE_PRESSED, oldStyleSheet: oldProps.onPressedStyle });
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Mask",
+        styleType: STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onPressedStyle
+      });
     },
     onClick(fn) {
       handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
@@ -21566,7 +21126,7 @@ var MaskComp = class extends NativeMask {
     const style2 = super.style;
     const that = this;
     this.style = new Proxy(this, {
-      get(obj9, prop) {
+      get(obj10, prop) {
         if (styleGetterProp.includes(prop)) {
           return style2[prop].call(that);
         }
@@ -21590,7 +21150,14 @@ var MaskComp = class extends NativeMask {
     super.close();
   }
   setStyle(style2, type = 0) {
-    setStyle({ comp: this, styleSheet: style2, compName: "Mask", styleType: type, oldStyleSheet: null, isInit: false });
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Mask",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
   }
   moveToFront() {
     super.moveToFront();
@@ -21633,8 +21200,1034 @@ var MaskConfig = class {
   }
 };
 
-// src/render/react/core/renderer/index.js
+// src/render/react/components/ProgressBar/comp.js
+var bridge13 = globalThis.SJSJSBridge;
+var NativeProgressBar = bridge13.NativeRender.NativeComponents.ProgressBar;
+function setProgressBarProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({
+      compName: "ProgressBar",
+      comp,
+      newProps,
+      oldProps
+    }),
+    style(styleSheet) {
+      if (newProps.animationTime) {
+        styleSheet["style-transition-time"] = newProps.animationTime;
+      }
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "ProgressBar",
+        styleType: STYLE_TYPE.PART_MAIN,
+        oldStyleSheet: oldProps.style
+      });
+    },
+    indicatorStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "ProgressBar",
+        styleType: STYLE_TYPE.PART_INDICATOR,
+        oldStyleSheet: oldProps.style
+      });
+    },
+    value(value) {
+      if (value !== oldProps.value) {
+        comp.setValue(value, !!newProps.useAnimation);
+      }
+    },
+    range(arr) {
+      if (arr?.[0] !== oldProps?.arr?.[0] || arr?.[1] !== oldProps?.arr?.[1]) {
+        comp.setRange(arr[0], arr[1]);
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var ProgressBarComp = class extends NativeProgressBar {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setProgressBarProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "ProgressBar",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(ProgressBarComp, "tagName", "ProgressBar");
+
+// src/render/react/components/ProgressBar/config.js
+var ProgressBarConfig = class {
+  tagName = "ProgressBar";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new ProgressBarComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Roller/comp.js
+var bridge14 = globalThis.SJSJSBridge;
+var NativeRoller = bridge14.NativeRender.NativeComponents.Roller;
+function setRollerProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Roller", comp, newProps, oldProps }),
+    selectedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Roller",
+        styleType: STYLE_TYPE.PART_SELECTED,
+        oldStyleSheet: oldProps.selectedStyle
+      });
+    },
+    options(options) {
+      if (options !== oldProps.options && Array.isArray(options)) {
+        comp.setOptions(options, options.length, !!newProps.infinity);
+      }
+    },
+    selectIndex(selectIndex) {
+      if (selectIndex !== oldProps.selectIndex) {
+        comp.setSelectIndex(selectIndex);
+      }
+    },
+    visibleRowCount(count) {
+      if (count !== oldProps.visibleRowCount) {
+        comp.setVisibleRowCount(count);
+      }
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var RollerComp = class extends NativeRoller {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setRollerProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Roller",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(RollerComp, "tagName", "Roller");
+
+// src/render/react/components/Roller/config.js
+var RollerConfig = class {
+  tagName = "Roller";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new RollerComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Slider/comp.js
+var bridge15 = globalThis.SJSJSBridge;
+var NativeSlider = bridge15.NativeRender.NativeComponents.Slider;
+function setSliderProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Slider", comp, newProps, oldProps }),
+    indicatorStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Slider",
+        styleType: STYLE_TYPE.PART_INDICATOR,
+        oldStyleSheet: oldProps.indicatorStyle
+      });
+    },
+    onIndicatorPressedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Slider",
+        styleType: STYLE_TYPE.PART_INDICATOR | STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onIndicatorPressedStyle
+      });
+    },
+    onPressedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Slider",
+        styleType: STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onPressedStyle
+      });
+    },
+    knobStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Slider",
+        styleType: STYLE_TYPE.PART_KNOB,
+        oldStyleSheet: oldProps.knobStyle
+      });
+    },
+    onKnobPressedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Slider",
+        styleType: STYLE_TYPE.PART_KNOB | STYLE_TYPE.STATE_PRESSED,
+        oldStyleSheet: oldProps.onKnobPressedStyle
+      });
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    },
+    range(arr) {
+      if (!Array.isArray(arr))
+        return;
+      const [min, max] = arr;
+      if (min === oldProps.range?.[0] && max === oldProps.range?.[1])
+        return;
+      if (isNaN(min) || isNaN(max))
+        return;
+      comp.setRange([min, max]);
+    },
+    value(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.value)
+        return;
+      comp.setValue(val);
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var SliderComp = class extends NativeSlider {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setSliderProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+    super.appendChild(child);
+  }
+  removeChild(child) {
+    super.removeChild(child);
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Slider",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(SliderComp, "tagName", "Slider");
+
+// src/render/react/components/Slider/config.js
+var SliderConfig = class {
+  tagName = "Slider";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new SliderComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Switch/comp.js
+var bridge16 = globalThis.SJSJSBridge;
+var NativeComp = bridge16.NativeRender.NativeComponents.Switch;
+function setSwitchProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Switch", comp, newProps, oldProps }),
+    checkedStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Switch",
+        styleType: STYLE_TYPE.STATE_CHECKED,
+        oldStyleSheet: oldProps.checkedStyle
+      });
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    },
+    checked(val) {
+      if (isNaN(val))
+        return;
+      if (val == oldProps.value)
+        return;
+      comp.setChecked(val);
+    },
+    disabled(val) {
+      if (val !== oldProps.disabled) {
+        comp.setDisabled(val);
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var SwitchComp = class extends NativeComp {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setSwitchProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+    this.insertChildBefore(child, beforeChild);
+  }
+  appendInitialChild(child) {
+    this.appendChild(child);
+  }
+  appendChild(child) {
+    super.appendChild(child);
+  }
+  removeChild(child) {
+    super.removeChild(child);
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Switch",
+      styleType: type,
+      oldStyleSheet: {},
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+
+// src/render/react/components/Switch/config.js
+var SwitchConfig = class {
+  tagName = "Switch";
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new SwitchComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  commitUnmount(instance) {
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Tabs/comp.js
+var bridge17 = globalThis.SJSJSBridge;
+var NativeTabs = bridge17.NativeRender.NativeComponents.TabView;
+function setTabsProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Tabs", comp, newProps, oldProps }),
+    onClick(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_CLICKED);
+    },
+    onPressed(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_PRESSED);
+    },
+    onLongPressed(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_LONG_PRESSED);
+    },
+    onLongPressRepeat(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_LONG_PRESSED_REPEAT);
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var tabPositionObj = {
+  left: 1 << 0,
+  top: 1 << 2,
+  right: 1 << 1,
+  bottom: 1 << 3
+};
+var TabsComp = class extends NativeTabs {
+  constructor({ uid, tabPosition, tabSize = 0 }) {
+    tabPosition = tabPositionObj[tabPosition] || tabPositionObj.top;
+    super({ uid, tabPosition, tabSize });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+    this.currentAppendIndex = 0;
+  }
+  setProps(newProps, oldProps) {
+    this.tabs = newProps.tabs;
+    setTabsProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+    this.appendChild(child);
+  }
+  appendChild(child) {
+    this.setTab(this.tabs[this.currentAppendIndex] || "", child);
+    this.currentAppendIndex++;
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Tabs",
+      styleType: type,
+      oldStyleSheet: null,
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+__publicField(TabsComp, "tagName", "Tabs");
+
+// src/render/react/components/Tabs/config.js
+var TabsConfig = class {
+  tagName = "Tabs";
+  native = null;
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new TabsComp({ uid, ...newProps });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Text/comp.js
+var bridge18 = globalThis.SJSJSBridge;
+var NativeText = bridge18.NativeRender.NativeComponents.Text;
+function setTextProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Text", comp, newProps, oldProps }),
+    children(str) {
+      const type = typeof str;
+      if ((type == "string" || type == "number") && oldProps.children !== str) {
+        comp.setText(String(str));
+      } else if (Array.isArray(str)) {
+        const isStringArr = str.every((item) => typeof item === "string" || typeof item === "number");
+        if (isStringArr) {
+          comp.setText(str.join(""));
+        }
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var TextComp = class extends NativeText {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setTextProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Text",
+      styleType: type,
+      oldStyleSheet: {},
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+
+// src/render/react/components/Text/config.js
+var TextConfig = class {
+  tagName = "Text";
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new TextComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  commitUnmount(instance) {
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/Textarea/comp.js
+var bridge19 = globalThis.SJSJSBridge;
+var NativeView4 = bridge19.NativeRender.NativeComponents.Textarea;
+function setTextareaProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "Textarea", comp, newProps, oldProps }),
+    placeholder(str) {
+      if (str !== oldProps.placeholder) {
+        comp.setPlaceHolder(str);
+      }
+    },
+    mode(mode) {
+      if (mode === "password") {
+        comp.setPasswordMode(true);
+      } else if (oldProps.mode === "password") {
+        comp.setPasswordMode(false);
+      }
+    },
+    onFocusStyle(styleSheet) {
+      setStyle({
+        comp,
+        styleSheet,
+        compName: "Textarea",
+        styleType: 2,
+        oldStyleSheet: oldProps.onFocusStyle
+      });
+    },
+    onChange(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_VALUE_CHANGED);
+    },
+    onFocus(fn) {
+      handleEvent(comp, fn, EVENTTYPE_MAP.EVENT_FOCUSED);
+    },
+    value(str) {
+      if (str !== oldProps.value) {
+        comp.setText(str);
+      }
+    },
+    autoKeyBoard(payload) {
+      if (payload !== oldProps?.autoKeyBoard) {
+        comp.setAutoKeyboard(payload);
+      }
+    }
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var TextareaComp = class extends NativeView4 {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    super.setOneLine(false);
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setTextareaProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+  close() {
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "Textarea",
+      styleType: type,
+      oldStyleSheet: {},
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+
+// src/render/react/components/Textarea/config.js
+var TextareaConfig = class {
+  tagName = "Textarea";
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new TextareaComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  commitUnmount(instance) {
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/components/View/comp.js
 var bridge20 = globalThis.SJSJSBridge;
+var NativeView5 = bridge20.NativeRender.NativeComponents.View;
+function setViewProps(comp, newProps, oldProps) {
+  const setter = {
+    ...CommonComponentApi({ compName: "View", comp, newProps, oldProps })
+  };
+  Object.keys(setter).forEach((key) => {
+    if (newProps.hasOwnProperty(key)) {
+      setter[key](newProps[key]);
+    }
+  });
+  comp.dataset = {};
+  Object.keys(newProps).forEach((prop) => {
+    const index = prop.indexOf("data-");
+    if (index === 0) {
+      comp.dataset[prop.substring(5)] = newProps[prop];
+    }
+  });
+}
+var ViewComp = class extends NativeView5 {
+  constructor({ uid }) {
+    super({ uid });
+    this.uid = uid;
+    const style2 = super.style;
+    const that = this;
+    this.style = new Proxy(this, {
+      get(obj10, prop) {
+        if (styleGetterProp.includes(prop)) {
+          return style2[prop].call(that);
+        }
+      }
+    });
+  }
+  setProps(newProps, oldProps) {
+    setViewProps(this, newProps, oldProps);
+  }
+  insertBefore(child, beforeChild) {
+    super.insertChildBefore(child, beforeChild);
+  }
+  appendInitialChild(child) {
+    this.appendChild(child);
+  }
+  appendChild(child) {
+    super.appendChild(child);
+  }
+  removeChild(child) {
+    super.removeChild(child);
+  }
+  close() {
+    super.close();
+  }
+  setStyle(style2, type = 0) {
+    setStyle({
+      comp: this,
+      styleSheet: style2,
+      compName: "View",
+      styleType: type,
+      oldStyleSheet: {},
+      isInit: false
+    });
+  }
+  moveToFront() {
+    super.moveToFront();
+  }
+  moveToBackground() {
+    super.moveToBackground();
+  }
+  scrollIntoView() {
+    super.scrollIntoView();
+  }
+};
+
+// src/render/react/components/View/config.js
+var ViewConfig = class {
+  tagName = "View";
+  shouldSetTextContent() {
+    return false;
+  }
+  createInstance(newProps, rootInstance, context, workInProgress, uid) {
+    const instance = new ViewComp({ uid });
+    instance.setProps(newProps, {});
+    return instance;
+  }
+  commitMount(instance, newProps, internalInstanceHandle) {
+  }
+  commitUpdate(instance, updatePayload, oldProps, newProps, finishedWork) {
+    instance.setProps(newProps, oldProps);
+  }
+  commitUnmount(instance) {
+  }
+  setProps(newProps, oldProps) {
+  }
+  insertBefore(child, beforeChild) {
+  }
+  appendInitialChild(child) {
+  }
+  appendChild(child) {
+  }
+  removeChild(child) {
+  }
+};
+
+// src/render/react/core/renderer/index.js
+var bridge21 = globalThis.SJSJSBridge;
 var containerInfo = /* @__PURE__ */ new Set();
 var _Renderer = class {
   static render(element, options) {
@@ -21649,9 +22242,12 @@ var Renderer = _Renderer;
 __publicField(Renderer, "container");
 __publicField(Renderer, "portalContainer");
 
+// src/render/react/index.js
+var React = __toESM(require_react());
+
 // src/render/react/core/animate/index.js
-var bridge21 = globalThis.SJSJSBridge;
-var NativeAnimate = bridge21.NativeRender.Animate;
+var bridge22 = globalThis.SJSJSBridge;
+var NativeAnimate = bridge22.NativeRender.Animate;
 var callbackObj = {};
 globalThis.ANIMIATE_CALLBACK = function(uid, ...args) {
   if (typeof callbackObj[uid] === "function") {
@@ -21664,13 +22260,13 @@ globalThis.ANIMIATE_CALLBACK = function(uid, ...args) {
 };
 
 // src/render/react/core/dimensions/index.js
-var bridge22 = globalThis.SJSJSBridge;
-var dimensions = bridge22.NativeRender.dimensions;
+var bridge23 = globalThis.SJSJSBridge;
+var dimensions = bridge23.NativeRender.dimensions;
 var Dimensions = dimensions;
 
 // src/render/react/core/theme/index.js
-var bridge23 = globalThis.SJSJSBridge;
-var nativeTheme = bridge23.NativeRender.theme;
+var bridge24 = globalThis.SJSJSBridge;
+var nativeTheme = bridge24.NativeRender.theme;
 
 // src/render/react/index.js
 var View = registerComponent(new ViewConfig());
@@ -21678,6 +22274,7 @@ var Text = registerComponent(new TextConfig());
 var Image = registerComponent(new ImageConfig());
 var Button = registerComponent(new ButtonConfig());
 var Slider = registerComponent(new SliderConfig());
+var Arc = registerComponent(new ArcConfig());
 var Switch = registerComponent(new SwitchConfig());
 var Textarea = registerComponent(new TextareaConfig());
 var Input = registerComponent(new InputConfig());

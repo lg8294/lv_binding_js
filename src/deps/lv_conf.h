@@ -12,6 +12,7 @@
  */
 
 /* clang-format off */
+#define IS_SIM 1
 #if IS_SIM /*Set it to "1" to enable content*/
 
 #ifndef LV_CONF_H
@@ -360,10 +361,10 @@
 /*Optionally declare custom fonts here.
  *You can use these fonts as default font too and they will be available globally.
  *E.g. #define LV_FONT_CUSTOM_DECLARE   LV_FONT_DECLARE(my_font_1) LV_FONT_DECLARE(my_font_2)*/
-#define LV_FONT_CUSTOM_DECLARE
+#define LV_FONT_CUSTOM_DECLARE LV_FONT_DECLARE(source_han_sans_cn_regular_14) LV_FONT_DECLARE(source_han_sans_cn_regular_16) LV_FONT_DECLARE(source_han_sans_cn_regular_18) LV_FONT_DECLARE(source_han_sans_cn_regular_20) LV_FONT_DECLARE(source_han_sans_cn_regular_22) LV_FONT_DECLARE(source_han_sans_cn_regular_24) LV_FONT_DECLARE(source_han_sans_cn_regular_26) LV_FONT_DECLARE(source_han_sans_cn_regular_28) LV_FONT_DECLARE(source_han_sans_cn_regular_30) LV_FONT_DECLARE(source_han_sans_cn_regular_32) LV_FONT_DECLARE(source_han_sans_cn_regular_34) LV_FONT_DECLARE(source_han_sans_cn_regular_36) LV_FONT_DECLARE(source_han_sans_cn_regular_38) LV_FONT_DECLARE(source_han_sans_cn_regular_40) LV_FONT_DECLARE(source_han_sans_cn_regular_42) LV_FONT_DECLARE(source_han_sans_cn_regular_44) LV_FONT_DECLARE(source_han_sans_cn_regular_46) LV_FONT_DECLARE(source_han_sans_cn_regular_48) LV_FONT_DECLARE(source_han_sans_cn_regular_60)
 
 /*Always set a default font*/
-#define LV_FONT_DEFAULT &lv_font_montserrat_14
+#define LV_FONT_DEFAULT &source_han_sans_cn_regular_24//lv_font_simsun_16_cjk//lv_font_montserrat_14
 
 /*Enable handling large font and/or fonts with a lot of characters.
  *The limit depends on the font size, font face and bpp.

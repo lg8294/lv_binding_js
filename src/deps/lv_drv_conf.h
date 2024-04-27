@@ -8,6 +8,7 @@
  */
 
 /* clang-format off */
+#define IS_SIM 1
 #if IS_SIM /*Set it to "1" to enable the content*/
 
 #ifndef LV_DRV_CONF_H
@@ -95,11 +96,11 @@
 #endif
 
 #if USE_SDL || USE_SDL_GPU
-#  define SDL_HOR_RES     1024
-#  define SDL_VER_RES     600
+#  define SDL_HOR_RES     800
+#  define SDL_VER_RES     1280
 
 /* Scale window by this factor (useful when simulating small screens) */
-#  define SDL_ZOOM        1
+#  define SDL_ZOOM        0.8
 
 /* Used to test true double buffering with only address changing.
  * Use 2 draw buffers, bith with SDL_HOR_RES x SDL_VER_RES size*/

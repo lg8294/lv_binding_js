@@ -1,5 +1,6 @@
-import { View, Render, Dimensions, Text, EAlignType, Button } from 'lvgljs-ui';
+import { Button, Dimensions, EAlignType, Render, Text, View } from 'lvgljs-ui';
 import React, { useState } from 'react';
+
 
 const { width, height } = Dimensions.window
 
@@ -10,7 +11,7 @@ function App () {
                 style={style.view1}
                 align={{
                     type: EAlignType.ALIGN_TOP_MID,
-                    pos: [0, 5]
+                    pos: [10, 0]
                 }}
             >
                 {
@@ -26,7 +27,7 @@ function App () {
             <View
                 align={{
                     type: EAlignType.ALIGN_BOTTOM_MID,
-                    pos: [0, -5]
+                    pos: [0, 5]
                 }}
                 style={style.view2}
             >
@@ -45,46 +46,47 @@ function App () {
 };
 
 const style = {
-    window: {
-        width,
-        height,
-    },
-    view1: {
-        'width': '90%',
-        'height': '75px',
-        'flex-direction': 'row',
-        'display': 'flex',
-        'overflow': 'auto',
-        'background-color': 'white',
-        'border-radius': 4,
-        'padding': '4px',
-        'border-width': '2px',
-        'border-color': 'grey',
-        'border-side': 'bottom-left'
-    },
-    button1: {
-        'width': '100px',
-        'height': '100%',
-        'display': 'flex',
-        'align-items': 'center',
-        'justify-content': 'center'
-    },
-    view2: {
-        'width': '200px',
-        'height': '150px',
-        'flex-direction': 'column',
-        'display': 'flex',
-        'overflow': 'auto',
-        'background-color': 'white',
-        'border-radius': 4,
-        'padding': '4px',
-        'border-width': '2px',
-        'border-color': 'grey'
-    },
-    button2: {
-        'width': '100%',
-        'height': 'auto'
-    }
+  window: {
+    width,
+    height,
+    padding: "0px",
+  },
+  view1: {
+    width: "90%",
+    height: "75px",
+    "flex-direction": "row",
+    display: "flex",
+    overflow: "auto",
+    "background-color": "red",
+    "border-radius": 4,
+    padding: "4px",
+    "border-width": "2px",
+    "border-color": "grey",
+    // 'border-side': 'bottom-left'
+  },
+  button1: {
+    width: "100px",
+    height: "100%",
+    display: "flex",
+    "align-items": "center",
+    "justify-content": "center",
+  },
+  view2: {
+    width: "200px",
+    height: "150px",
+    "flex-direction": "column",
+    display: "flex",
+    overflow: "auto",
+    "background-color": "white",
+    "border-radius": 4,
+    padding: "4px",
+    "border-width": "2px",
+    "border-color": "grey",
+  },
+  button2: {
+    width: "100%",
+    height: "auto",
+  },
 };
 
 Render.render(<App />);
