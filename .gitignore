@@ -4,6 +4,7 @@ debug
 src/deps
 src/render/deps
 dev_arm/
+dev_arm1/
 dev_x86/
 build_arm/test
 CMakeCache.txt

@@ -1,18 +1,21 @@
 cmake_minimum_required(VERSION 2.8)
+project(lvgljs)
 
 set(QUICKJS_PATH ./src/jsruntime/deps/quickjs)
 set(LIBUV_PATH ./src/deps/libuv)
 set(LV_CONF_PATH ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/lv_conf.h CACHE INTERNAL "LV_CONF_PATH")
 
 if (${CMAKE_BUILD_TYPE} MATCHES Debug)
-    set(CMAKE_CXX_FLAGS "-O0 -Wall -g -ggdb -std=c++11")
-    set(CMAKE_C_FLAGS "-O0 -Wall -g -ggdb -std=gnu99")
+    set(CMAKE_CXX_FLAGS "-O0 -Wall -g -ggdb -std=c++11 -Wno-error=incompatible-function-pointer-types")
+    set(CMAKE_C_FLAGS "-O0 -Wall -g -ggdb -std=gnu99 -Wno-error=incompatible-function-pointer-types")
 elseif (${CMAKE_BUILD_TYPE} MATCHES Release)
-    set(CMAKE_CXX_FLAGS "-O0 -Wall -std=c++11")
-    set(CMAKE_C_FLAGS "-O0 -Wall -std=gnu99")
+    set(CMAKE_CXX_FLAGS "-O0 -Wall -std=c++11 -Wno-error=incompatible-function-pointer-types")
+    set(CMAKE_C_FLAGS "-O0 -Wall -std=gnu99 -Wno-error=incompatible-function-pointer-types")
 endif()
 
 if (${CMAKE_BUILD_TYPE} MATCHES Debug AND ${CMAKE_BUILD_PLATFORM} MATCHES x86)
+add_definitions(-DIS_SIM)
+elseif(${CMAKE_BUILD_PLATFORM} MATCHES arm1)
 add_definitions(-DIS_SIM)
 elseif(${CMAKE_BUILD_PLATFORM} MATCHES arm)
 add_definitions(-DIS_DEVICE)
@@ -38,6 +41,37 @@ include_directories(
 )
 
 if (${CMAKE_BUILD_TYPE} MATCHES Debug AND ${CMAKE_BUILD_PLATFORM} MATCHES x86)
+    find_package(SDL2 REQUIRED 
+        SDL2
+    )
+    find_package(OpenSSL REQUIRED)
+    message(OPENSSL_SSL_LIBRARIES is ${OPENSSL_SSL_LIBRARIES})
+    string(STRIP ${SDL2_LIBRARIES} SDL2_LIBRARIES)
+    find_package(CURL REQUIRED)
+    string(STRIP ${CURL_LIBRARIES} CURL_LIBRARIES)
+    add_executable(lvgljs
+        ./src/utils/utils.c
+        ./src/engine/hal/simulator/mouse_cursor_icon.c
+        ./src/engine/hal/simulator/simulator.cpp
+        ./src/engine/engine.cpp
+    )
+    target_include_directories(lv_drivers PUBLIC ${SDL2_INCLUDE_DIRS}/../)
+
+    target_link_libraries(lvgljs INTERFACE OpenSSL::Crypto)
+    target_link_libraries(lvgljs INTERFACE OpenSSL::SSL)
+
+    target_link_libraries(lvgljs
+        jsruntime
+        ${CURL_LIBRARIES}
+        uv_a
+        dl
+        pthread
+        render
+        lvgl
+        lv_drivers
+        ${SDL2_LIBRARIES}
+    )
+elseif (${CMAKE_BUILD_PLATFORM} MATCHES arm1)
     find_package(SDL2 REQUIRED 
         SDL2
     )
